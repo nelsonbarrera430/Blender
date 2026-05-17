@@ -1,0 +1,2834 @@
+[
+    {
+        "name": "node_lev3.037",
+        "x": 0.0,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3",
+        "x": 0.0,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "paint_bucket_lev3.001",
+        "x": -13.9802,
+        "y": 0.0,
+        "z": 8.1472,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "paint_bucket_lev3.002",
+        "x": -8.2452,
+        "y": 0.0,
+        "z": 25.144,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "paint_bucket_lev3.003",
+        "x": 42.61,
+        "y": 0.0,
+        "z": 25.144,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "paint_bucket_lev3.004",
+        "x": -23.063,
+        "y": 0.0,
+        "z": 25.144,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "paint_bucket_lev3",
+        "x": -24.6085,
+        "y": 0.0,
+        "z": 11.1805,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "pin_lev3",
+        "x": 22.5027,
+        "y": 1.3241,
+        "z": -11.1393,
+        "level": 3,
+        "role": "spawn"
+    },
+    {
+        "name": "plane_lev3.001",
+        "x": -19.6843,
+        "y": 5.3112,
+        "z": 19.3559,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "plane_lev3",
+        "x": -23.1935,
+        "y": 5.3112,
+        "z": -0.0204,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "prize_lev3",
+        "x": -6.0748,
+        "y": 1.4004,
+        "z": -6.4962,
+        "level": 3,
+        "role": "finalPrize"
+    },
+    {
+        "name": "text_lev3.001",
+        "x": 22.0589,
+        "y": 1.485,
+        "z": -16.1392,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "text_lev3",
+        "x": 21.8307,
+        "y": 1.4838,
+        "z": -6.9064,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cartell3_lev3.001",
+        "x": 0.1096,
+        "y": 2.5072,
+        "z": -11.757,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cartell3_lev3",
+        "x": 0.1096,
+        "y": 2.5142,
+        "z": -15.4281,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "coin_lev3.001",
+        "x": -3.055,
+        "y": 0.582,
+        "z": -33.2461,
+        "level": 3,
+        "role": "coin"
+    },
+    {
+        "name": "coin_lev3.002",
+        "x": -44.4616,
+        "y": 0.582,
+        "z": -44.3302,
+        "level": 3,
+        "role": "coin"
+    },
+    {
+        "name": "coin_lev3.003",
+        "x": -31.5447,
+        "y": 0.582,
+        "z": 23.8674,
+        "level": 3,
+        "role": "coin"
+    },
+    {
+        "name": "coin_lev3.004",
+        "x": -15.9915,
+        "y": 0.582,
+        "z": -3.3775,
+        "level": 3,
+        "role": "coin"
+    },
+    {
+        "name": "coin_lev3",
+        "x": 0.5095,
+        "y": 0.582,
+        "z": -2.4748,
+        "level": 3,
+        "role": "coin"
+    },
+    {
+        "name": "cube_lev3.001",
+        "x": -19.3364,
+        "y": 2.8554,
+        "z": 19.3559,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cube_lev3.002",
+        "x": 21.8307,
+        "y": 1.4838,
+        "z": -6.8342,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cube_lev3.003",
+        "x": 22.0589,
+        "y": 1.485,
+        "z": -16.223,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cube_lev3",
+        "x": -22.8456,
+        "y": 2.8554,
+        "z": -0.0204,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cylinder_lev3.001",
+        "x": -18.9667,
+        "y": 0.1507,
+        "z": 19.3763,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cylinder_lev3.002",
+        "x": 22.5531,
+        "y": 0.6169,
+        "z": -6.8342,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cylinder_lev3.003",
+        "x": 21.1083,
+        "y": 0.6169,
+        "z": -6.8342,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cylinder_lev3.004",
+        "x": 21.221,
+        "y": 0.4795,
+        "z": -16.223,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cylinder_lev3.005",
+        "x": 22.8969,
+        "y": 0.4795,
+        "z": -16.223,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "cylinder_lev3",
+        "x": -22.4759,
+        "y": 0.1507,
+        "z": -0.0,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group8551622_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group8551622_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group8551622_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.001",
+        "x": 15.1182,
+        "y": 1.7503,
+        "z": -38.6962,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.002",
+        "x": -3.4946,
+        "y": 1.7503,
+        "z": -38.6962,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.003",
+        "x": -3.4946,
+        "y": 2.7213,
+        "z": 6.5771,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.004",
+        "x": 15.1182,
+        "y": 1.7503,
+        "z": 6.5771,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.005",
+        "x": 35.0962,
+        "y": 1.7503,
+        "z": 21.539,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.006",
+        "x": -46.8803,
+        "y": 1.7503,
+        "z": -6.4347,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.007",
+        "x": 42.4713,
+        "y": 1.7503,
+        "z": -38.6962,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.008",
+        "x": 41.8728,
+        "y": 2.7213,
+        "z": 6.5771,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.009",
+        "x": 34.5383,
+        "y": 2.7213,
+        "z": -23.387,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.010",
+        "x": -34.9039,
+        "y": 2.7213,
+        "z": 16.9143,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.011",
+        "x": -13.5148,
+        "y": 2.7213,
+        "z": 31.7457,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.012",
+        "x": -23.6663,
+        "y": 2.7213,
+        "z": -45.7201,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.013",
+        "x": 34.5383,
+        "y": 4.4313,
+        "z": -15.4594,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3",
+        "x": 22.0632,
+        "y": 1.7503,
+        "z": -20.0509,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group44135111_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group44135111_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group44135111_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group56422566_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group56422566_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group56422566_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group74397697_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group74397697_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group74397697_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group89805499_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group89805499_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group89805499_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group89805499_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group122212227_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group122212227_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group122212227_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group122212227_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group124733058_lev3.001",
+        "x": 34.427,
+        "y": 1.7685,
+        "z": 1.8787,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group124733058_lev3.002",
+        "x": 27.6618,
+        "y": 1.7685,
+        "z": -13.0831,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group124733058_lev3",
+        "x": 14.4491,
+        "y": 1.7685,
+        "z": -13.0831,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group127925631_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group127925631_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group127925631_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group163514800_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group163514800_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group163514800_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group163514800_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group232990380_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group232990380_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group232990380_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group235934381_lev3.001",
+        "x": -20.848,
+        "y": 2.9796,
+        "z": -29.5171,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group235934381_lev3.002",
+        "x": 45.6279,
+        "y": 2.9796,
+        "z": -9.3706,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group235934381_lev3.003",
+        "x": -4.1112,
+        "y": 2.9796,
+        "z": -48.2465,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group235934381_lev3",
+        "x": 25.9548,
+        "y": 2.9796,
+        "z": -29.5171,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group281357353_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group281357353_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group281357353_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group281357353_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group299868332_lev3.001",
+        "x": -19.4899,
+        "y": 0.468,
+        "z": -12.1475,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group299868332_lev3.002",
+        "x": -38.2142,
+        "y": 0.468,
+        "z": -38.7317,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group299868332_lev3",
+        "x": -12.8788,
+        "y": 0.468,
+        "z": -9.5021,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group411329078_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group411329078_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group411329078_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.001",
+        "x": 7.2016,
+        "y": 0.7363,
+        "z": -43.5304,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.002",
+        "x": 7.2016,
+        "y": 1.3784,
+        "z": 1.7428,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.003",
+        "x": 27.1795,
+        "y": 0.7363,
+        "z": 16.7047,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.004",
+        "x": 34.5417,
+        "y": 0.7363,
+        "z": 1.848,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.005",
+        "x": 18.1553,
+        "y": 0.7363,
+        "z": -4.2751,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.006",
+        "x": -4.3964,
+        "y": 1.3784,
+        "z": -0.2905,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3",
+        "x": 14.5638,
+        "y": 0.7363,
+        "z": -13.1138,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group465467018_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group465467018_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group465467018_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group465537640_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group465537640_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group465537640_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.001",
+        "x": 12.2296,
+        "y": 0.2587,
+        "z": -30.3086,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.002",
+        "x": 3.0492,
+        "y": 0.2587,
+        "z": -30.3086,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.003",
+        "x": 30.2895,
+        "y": 0.2587,
+        "z": -13.9079,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.004",
+        "x": 3.0492,
+        "y": 0.2587,
+        "z": 14.9647,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.005",
+        "x": 12.2296,
+        "y": 0.2587,
+        "z": 14.9647,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.006",
+        "x": 50.2675,
+        "y": 0.2587,
+        "z": 1.054,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.007",
+        "x": 26.2955,
+        "y": 0.2587,
+        "z": 1.054,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.008",
+        "x": -38.5761,
+        "y": 0.2587,
+        "z": -13.0839,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.009",
+        "x": -38.6921,
+        "y": 0.2587,
+        "z": -22.2636,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3.010",
+        "x": -38.6921,
+        "y": 0.2587,
+        "z": -29.1936,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group479889598_lev3",
+        "x": 6.3176,
+        "y": 0.2587,
+        "z": -13.9079,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group532001670_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group532001670_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group532001670_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.001",
+        "x": -0.7294,
+        "y": 6.5216,
+        "z": -29.189,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.002",
+        "x": 35.405,
+        "y": 8.8225,
+        "z": -29.189,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.003",
+        "x": -12.9054,
+        "y": 8.8225,
+        "z": -18.1446,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.004",
+        "x": -3.4864,
+        "y": 4.7773,
+        "z": 7.2208,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.005",
+        "x": 39.3386,
+        "y": 8.2456,
+        "z": 4.6533,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.006",
+        "x": -26.2115,
+        "y": 8.8225,
+        "z": 2.7158,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.007",
+        "x": -37.4088,
+        "y": 8.8225,
+        "z": -9.3197,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.008",
+        "x": -29.7954,
+        "y": 8.8225,
+        "z": -35.8258,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.009",
+        "x": 6.5893,
+        "y": 4.7773,
+        "z": 7.2208,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.010",
+        "x": -24.2648,
+        "y": 4.7773,
+        "z": -6.5346,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.011",
+        "x": -13.3881,
+        "y": 4.7773,
+        "z": -24.6127,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.012",
+        "x": 11.9438,
+        "y": 4.7773,
+        "z": -40.9897,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.013",
+        "x": -11.6993,
+        "y": 4.7773,
+        "z": -40.9897,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.014",
+        "x": -38.1647,
+        "y": 4.7773,
+        "z": 9.3778,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.015",
+        "x": 37.0485,
+        "y": 4.7773,
+        "z": 32.1217,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3.016",
+        "x": 0.6441,
+        "y": 4.7773,
+        "z": -44.0577,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group595062873_lev3",
+        "x": 19.3607,
+        "y": 8.2456,
+        "z": -10.3085,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group604741097_lev3.001",
+        "x": 0.1304,
+        "y": 2.4354,
+        "z": -5.8765,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group604741097_lev3.002",
+        "x": -10.2753,
+        "y": 2.4354,
+        "z": 2.8026,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group604741097_lev3.003",
+        "x": -30.7293,
+        "y": 2.4354,
+        "z": -36.3522,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group604741097_lev3.004",
+        "x": 23.2702,
+        "y": 3.168,
+        "z": -34.9385,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group604741097_lev3",
+        "x": -13.8149,
+        "y": 3.168,
+        "z": -17.577,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group620967089_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group620967089_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group620967089_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group621005826_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group621005826_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group621005826_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group622177310_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group622177310_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group622177310_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group622177310_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group656011633_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group656011633_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group656011633_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group671822753_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group671822753_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group671822753_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group686855367_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group686855367_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group686855367_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group686855367_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group748549275_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group748549275_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group748549275_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group748549275_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group753785313_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group753785313_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group753785313_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group753785313_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group754144560_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group754144560_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group754144560_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group764930239_lev3",
+        "x": -6.2665,
+        "y": 4.9798,
+        "z": -7.2221,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group790674077_lev3.001",
+        "x": 22.3092,
+        "y": 1.5471,
+        "z": 10.7075,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group790674077_lev3.002",
+        "x": -39.0101,
+        "y": 1.5471,
+        "z": 29.3812,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group790674077_lev3",
+        "x": -0.0044,
+        "y": 1.5471,
+        "z": -13.1598,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group797385045_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group797385045_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group797385045_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group797385045_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group858615592_lev3.001",
+        "x": 22.3092,
+        "y": 2.0014,
+        "z": 10.2811,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group858615592_lev3.002",
+        "x": -39.3202,
+        "y": 2.0014,
+        "z": 29.0884,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group858615592_lev3",
+        "x": -0.0044,
+        "y": 2.0014,
+        "z": -13.5862,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group929743853_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group929743853_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group929743853_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group929743853_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group951691359_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group951691359_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group951691359_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group951691359_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group953893450_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group953893450_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group953893450_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group958106192_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group958106192_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group958106192_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group958106192_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group970131559_lev3.001",
+        "x": 22.3092,
+        "y": 1.5189,
+        "z": 9.8094,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group970131559_lev3.002",
+        "x": -39.6631,
+        "y": 1.5189,
+        "z": 28.7646,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group970131559_lev3",
+        "x": -0.0044,
+        "y": 1.5189,
+        "z": -14.0579,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1049340673_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1049340673_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1049340673_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1049340673_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1102693292_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1102693292_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1102693292_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1159153237_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1159153237_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1159153237_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1176076155_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1176076155_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1176076155_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1182738416_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1182738416_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1182738416_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1191976432_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1191976432_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1191976432_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1191976432_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1208203810_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1208203810_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1208203810_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1208203810_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1247032325_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1247032325_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1247032325_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1247032325_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1264039543_lev3",
+        "x": 23.8543,
+        "y": 0.9675,
+        "z": -6.8395,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1283948824_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1283948824_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1283948824_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1384989985_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1384989985_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1384989985_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1385236299_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1385236299_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1385236299_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1385236299_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1387156066_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1387156066_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1387156066_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1387156066_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3.001",
+        "x": -8.21,
+        "y": 0.8285,
+        "z": -29.2181,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3.002",
+        "x": -8.21,
+        "y": 1.3727,
+        "z": 16.0552,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3.003",
+        "x": -1.1533,
+        "y": 0.8285,
+        "z": 23.1381,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3.004",
+        "x": -37.3434,
+        "y": 0.8285,
+        "z": -1.8394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3.005",
+        "x": -30.3502,
+        "y": 0.8285,
+        "z": -8.985,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3.006",
+        "x": -41.027,
+        "y": 0.8285,
+        "z": 16.9602,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1460745379_lev3",
+        "x": -1.1533,
+        "y": 0.8285,
+        "z": -22.1352,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1501622079_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1501622079_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1501622079_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1512100864_lev3.001",
+        "x": 36.5694,
+        "y": 0.7192,
+        "z": -6.856,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1512100864_lev3.002",
+        "x": 45.9513,
+        "y": 0.7192,
+        "z": 10.5819,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1512100864_lev3.003",
+        "x": -24.36,
+        "y": 0.7192,
+        "z": 32.049,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1512100864_lev3.004",
+        "x": -44.3226,
+        "y": 0.7192,
+        "z": -18.8786,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1512100864_lev3",
+        "x": 30.3684,
+        "y": 0.7192,
+        "z": -40.0857,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1550278590_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1550278590_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1550278590_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1550278590_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.001",
+        "x": 13.4949,
+        "y": 0.7819,
+        "z": -20.2362,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.002",
+        "x": 13.4949,
+        "y": 0.7819,
+        "z": 25.0371,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.003",
+        "x": 12.9204,
+        "y": 8.965,
+        "z": 33.046,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.004",
+        "x": -28.6364,
+        "y": 0.7819,
+        "z": -23.6559,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.005",
+        "x": -32.4954,
+        "y": 0.7819,
+        "z": -52.2742,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.006",
+        "x": 12.9204,
+        "y": 8.965,
+        "z": -52.8549,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3.007",
+        "x": -3.6054,
+        "y": 8.965,
+        "z": 33.046,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1564940181_lev3",
+        "x": -2.7066,
+        "y": 0.7819,
+        "z": -15.3665,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1574860539_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1574860539_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1574860539_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1574860539_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1593881589_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1593881589_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1593881589_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1593881589_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.001",
+        "x": 7.8682,
+        "y": 0.5568,
+        "z": -22.5387,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.002",
+        "x": -17.5088,
+        "y": 0.5568,
+        "z": -37.2946,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.003",
+        "x": 7.8682,
+        "y": 0.5568,
+        "z": 22.7346,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.004",
+        "x": -30.8676,
+        "y": 0.5568,
+        "z": -18.0007,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.005",
+        "x": -38.5283,
+        "y": 0.5568,
+        "z": -51.5229,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.006",
+        "x": -15.1925,
+        "y": 0.5568,
+        "z": -49.0421,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3.007",
+        "x": 36.7317,
+        "y": 0.8692,
+        "z": -33.8938,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1631947829_lev3",
+        "x": 1.2311,
+        "y": 0.5568,
+        "z": -17.566,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1647738915_lev3.001",
+        "x": -21.5345,
+        "y": 1.3808,
+        "z": -19.7812,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1647738915_lev3.002",
+        "x": 30.4248,
+        "y": 1.3808,
+        "z": 8.0816,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1647738915_lev3.003",
+        "x": -32.4935,
+        "y": 1.3808,
+        "z": -44.1841,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1647738915_lev3",
+        "x": 10.4469,
+        "y": 1.3808,
+        "z": -6.8802,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1705510684_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1705510684_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1705510684_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1776190126_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1776190126_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1776190126_lev3",
+        "x": 42.9965,
+        "y": 0.0,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1818759354_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1818759354_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1818759354_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1818759354_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1927985819_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1927985819_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1927985819_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1927985819_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1938293285_lev3.001",
+        "x": 22.3829,
+        "y": 2.4991,
+        "z": 10.1871,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1938293285_lev3.002",
+        "x": -39.3379,
+        "y": 2.4991,
+        "z": 28.9703,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1938293285_lev3",
+        "x": 0.0693,
+        "y": 2.4991,
+        "z": -13.6802,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group2106947798_lev3.001",
+        "x": 24.9722,
+        "y": 0.0,
+        "z": 27.0265,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group2106947798_lev3.002",
+        "x": 22.6571,
+        "y": 0.0,
+        "z": -45.3873,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group2106947798_lev3.003",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -51.4359,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group2106947798_lev3",
+        "x": 42.9965,
+        "y": 0.5208,
+        "z": -20.2037,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.001",
+        "x": -10.6141,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.002",
+        "x": -31.8195,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.003",
+        "x": -21.2054,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.004",
+        "x": 21.21,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.005",
+        "x": 10.5959,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.006",
+        "x": 31.8013,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.007",
+        "x": 42.4154,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.008",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": 28.4283,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.009",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": 17.8142,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.010",
+        "x": -53.0607,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.011",
+        "x": -42.4466,
+        "y": 5.8255,
+        "z": 39.0288,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.012",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": -3.4194,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.013",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": 7.1947,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.014",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": -35.3806,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.015",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": -45.9947,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.016",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": -24.7611,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.017",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": -14.1471,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.018",
+        "x": -52.6927,
+        "y": 5.8255,
+        "z": -56.6927,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.019",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": -56.6927,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.020",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": -14.1471,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.021",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": -24.7611,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.022",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": -45.9947,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.023",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": -35.3806,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.024",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": 7.1947,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.025",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": -3.4194,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.026",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": 17.8142,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.027",
+        "x": 52.616,
+        "y": 5.8255,
+        "z": 28.4283,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.028",
+        "x": -42.4466,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.029",
+        "x": -53.0607,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.030",
+        "x": 42.4154,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.031",
+        "x": 31.8013,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.032",
+        "x": 10.5959,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.033",
+        "x": 21.21,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.034",
+        "x": -21.2054,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.035",
+        "x": -31.8195,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "node_lev3.036",
+        "x": -10.6141,
+        "y": 5.8255,
+        "z": -58.394,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group1647738915_lev3.004",
+        "x": -34.6404,
+        "y": 2.5379,
+        "z": -26.7611,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group764930239_lev3.001",
+        "x": -10.056,
+        "y": 4.4735,
+        "z": -7.2221,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group764930239_lev3.002",
+        "x": -2.8502,
+        "y": 4.9798,
+        "z": -7.2221,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.007",
+        "x": 4.8781,
+        "y": 1.6544,
+        "z": 31.1412,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.008",
+        "x": -30.5786,
+        "y": 1.6544,
+        "z": 31.1412,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group418243690_lev3.009",
+        "x": 18.9576,
+        "y": 1.6544,
+        "z": -30.8886,
+        "level": 3,
+        "role": "default"
+    },
+    {
+        "name": "group17020863_lev3.014",
+        "x": 27.8608,
+        "y": 1.7503,
+        "z": -24.5094,
+        "level": 3,
+        "role": "default"
+    }
+]
