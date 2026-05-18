@@ -1,37 +1,5 @@
 [
     {
-        "name": "n5_n5_tree_lev5.008",
-        "x": 29.3567,
-        "y": -0.0171,
-        "z": -40.8461,
-        "level": 5,
-        "role": "default"
-    },
-    {
-        "name": "n5_n5_tree_lev5.009",
-        "x": 1.164,
-        "y": -0.0171,
-        "z": -45.681,
-        "level": 5,
-        "role": "default"
-    },
-    {
-        "name": "n5_n5_tree_lev5.010",
-        "x": 0.9543,
-        "y": -0.0171,
-        "z": -52.5058,
-        "level": 5,
-        "role": "default"
-    },
-    {
-        "name": "n5_n5_tree_lev5.011",
-        "x": -1.1882,
-        "y": -0.0171,
-        "z": -52.5058,
-        "level": 5,
-        "role": "default"
-    },
-    {
         "name": "n5_n5_tree_lev5.012",
         "x": -3.2047,
         "y": -0.0171,
@@ -4872,18 +4840,34 @@
         "role": "default"
     },
     {
-        "name": "n5_n5_n5_block-snow-overhang-narrow_lev5.015",
-        "x": 38.3486,
-        "y": 0.0,
-        "z": 15.9067,
+        "name": "n5_n5_tree_lev5.008",
+        "x": 29.3567,
+        "y": -0.0171,
+        "z": -40.8461,
         "level": 5,
         "role": "default"
     },
     {
-        "name": "n5_n5_n5_block-snow-overhang-narrow_lev5.016",
-        "x": 6.8538,
-        "y": 0.0,
-        "z": 46.7001,
+        "name": "n5_n5_tree_lev5.009",
+        "x": 1.164,
+        "y": -0.0171,
+        "z": -45.681,
+        "level": 5,
+        "role": "default"
+    },
+    {
+        "name": "n5_n5_tree_lev5.010",
+        "x": 0.9543,
+        "y": -0.0171,
+        "z": -52.5058,
+        "level": 5,
+        "role": "default"
+    },
+    {
+        "name": "n5_n5_tree_lev5.011",
+        "x": -1.1882,
+        "y": -0.0171,
+        "z": -52.5058,
         "level": 5,
         "role": "default"
     }

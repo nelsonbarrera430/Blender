@@ -1,29 +1,5 @@
 [
     {
-        "name": "n4_text_lev4",
-        "x": 29.6581,
-        "y": 1.5268,
-        "z": -9.6234,
-        "level": 4,
-        "role": "default"
-    },
-    {
-        "name": "n4_torture_device_011_lev4",
-        "x": -7.4969,
-        "y": -188.7213,
-        "z": -5.1722,
-        "level": 4,
-        "role": "default"
-    },
-    {
-        "name": "n4_tree_001_lev4.001",
-        "x": 53.6783,
-        "y": -0.0792,
-        "z": 40.748,
-        "level": 4,
-        "role": "default"
-    },
-    {
         "name": "n4_tree_001_lev4.002",
         "x": 53.6783,
         "y": -0.0792,
@@ -1328,42 +1304,26 @@
         "role": "default"
     },
     {
-        "name": "n4_big_fabulous_tree_001_lev4.004",
-        "x": -70.4239,
-        "y": 0.0,
-        "z": 8.5393,
+        "name": "n4_text_lev4",
+        "x": 29.6581,
+        "y": 1.5268,
+        "z": -9.6234,
         "level": 4,
         "role": "default"
     },
     {
-        "name": "n4_big_fabulous_tree_001_lev4.005",
-        "x": -4.1695,
-        "y": 0.0,
-        "z": 46.3054,
+        "name": "n4_torture_device_011_lev4",
+        "x": -7.4969,
+        "y": -188.7213,
+        "z": -5.1722,
         "level": 4,
         "role": "default"
     },
     {
-        "name": "n4_fabulous_tree_001_lev4.009",
-        "x": -62.6188,
-        "y": 0.0,
-        "z": 3.4068,
-        "level": 4,
-        "role": "default"
-    },
-    {
-        "name": "n4_fabulous_tree_001_lev4.010",
-        "x": -53.1898,
-        "y": 0.0,
-        "z": -5.7268,
-        "level": 4,
-        "role": "default"
-    },
-    {
-        "name": "n4_house_003_lev4.009",
-        "x": 15.8534,
-        "y": 0.0,
-        "z": -83.8194,
+        "name": "n4_tree_001_lev4.001",
+        "x": 53.6783,
+        "y": -0.0792,
+        "z": 40.748,
         "level": 4,
         "role": "default"
     }

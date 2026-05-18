@@ -1,93 +1,5 @@
 [
     {
-        "name": "tree-large_lev1.041",
-        "x": 22.6731,
-        "y": -0.0171,
-        "z": -30.447,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "tree-large_lev1.042",
-        "x": 0.6209,
-        "y": -0.0171,
-        "z": -36.224,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "tree-large_lev1",
-        "x": 9.9734,
-        "y": -0.0171,
-        "z": 5.0203,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "tree-small_lev1.001",
-        "x": -2.9451,
-        "y": -0.0171,
-        "z": 14.0947,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "tree-small_lev1.002",
-        "x": -13.8255,
-        "y": -0.0171,
-        "z": 7.3869,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "tree-small_lev1.003",
-        "x": -13.8255,
-        "y": -0.0171,
-        "z": 4.5849,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "tree-small_lev1",
-        "x": -6.4577,
-        "y": -0.0171,
-        "z": 14.0947,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "wall_lev1",
-        "x": 0.0,
-        "y": 0.0,
-        "z": -7.4009,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "building-type-l_lev1",
-        "x": -59.1237,
-        "y": -0.0171,
-        "z": -29.4196,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "building-type-q_lev1",
-        "x": 11.4452,
-        "y": -0.0171,
-        "z": 40.2616,
-        "level": 1,
-        "role": "default"
-    },
-    {
-        "name": "building-type-r_lev1.001",
-        "x": 5.9177,
-        "y": -0.0171,
-        "z": 20.1917,
-        "level": 1,
-        "role": "default"
-    },
-    {
         "name": "building-type-r_lev1",
         "x": 5.9177,
         "y": -0.0171,
@@ -669,7 +581,7 @@
         "y": 1.3241,
         "z": -8.4629,
         "level": 1,
-        "role": "spawn"
+        "role": "default"
     },
     {
         "name": "n1_prize_lev1",
@@ -981,7 +893,7 @@
         "y": 1.3241,
         "z": -8.4629,
         "level": 1,
-        "role": "default"
+        "role": "spawn"
     },
     {
         "name": "planter_lev1.001",
@@ -1348,6 +1260,94 @@
         "x": 9.8133,
         "y": -0.0171,
         "z": -20.2454,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-large_lev1.041",
+        "x": 22.6731,
+        "y": -0.0171,
+        "z": -30.447,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-large_lev1.042",
+        "x": 0.6209,
+        "y": -0.0171,
+        "z": -36.224,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-large_lev1",
+        "x": 9.9734,
+        "y": -0.0171,
+        "z": 5.0203,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-small_lev1.001",
+        "x": -2.9451,
+        "y": -0.0171,
+        "z": 14.0947,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-small_lev1.002",
+        "x": -13.8255,
+        "y": -0.0171,
+        "z": 7.3869,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-small_lev1.003",
+        "x": -13.8255,
+        "y": -0.0171,
+        "z": 4.5849,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "tree-small_lev1",
+        "x": -6.4577,
+        "y": -0.0171,
+        "z": 14.0947,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "wall_lev1",
+        "x": 0.0,
+        "y": 0.0,
+        "z": -7.4009,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "building-type-l_lev1",
+        "x": -59.1237,
+        "y": -0.0171,
+        "z": -29.4196,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "building-type-q_lev1",
+        "x": 11.4452,
+        "y": -0.0171,
+        "z": 40.2616,
+        "level": 1,
+        "role": "default"
+    },
+    {
+        "name": "building-type-r_lev1.001",
+        "x": 5.9177,
+        "y": -0.0171,
+        "z": 20.1917,
         "level": 1,
         "role": "default"
     }

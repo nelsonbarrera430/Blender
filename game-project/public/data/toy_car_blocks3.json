@@ -1,61 +1,5 @@
 [
     {
-        "name": "node_lev3.037",
-        "x": 0.0,
-        "y": 5.8255,
-        "z": -58.394,
-        "level": 3,
-        "role": "default"
-    },
-    {
-        "name": "node_lev3",
-        "x": 0.0,
-        "y": 5.8255,
-        "z": 39.0288,
-        "level": 3,
-        "role": "default"
-    },
-    {
-        "name": "paint_bucket_lev3.001",
-        "x": -13.9802,
-        "y": 0.0,
-        "z": 8.1472,
-        "level": 3,
-        "role": "default"
-    },
-    {
-        "name": "paint_bucket_lev3.002",
-        "x": -8.2452,
-        "y": 0.0,
-        "z": 25.144,
-        "level": 3,
-        "role": "default"
-    },
-    {
-        "name": "paint_bucket_lev3.003",
-        "x": 42.61,
-        "y": 0.0,
-        "z": 25.144,
-        "level": 3,
-        "role": "default"
-    },
-    {
-        "name": "paint_bucket_lev3.004",
-        "x": -23.063,
-        "y": 0.0,
-        "z": 25.144,
-        "level": 3,
-        "role": "default"
-    },
-    {
-        "name": "paint_bucket_lev3",
-        "x": -24.6085,
-        "y": 0.0,
-        "z": 11.1805,
-        "level": 3,
-        "role": "default"
-    },
-    {
         "name": "pin_lev3",
         "x": 22.5027,
         "y": 1.3241,
@@ -2776,58 +2720,58 @@
         "role": "default"
     },
     {
-        "name": "group1647738915_lev3.004",
-        "x": -34.6404,
-        "y": 2.5379,
-        "z": -26.7611,
+        "name": "node_lev3.037",
+        "x": 0.0,
+        "y": 5.8255,
+        "z": -58.394,
         "level": 3,
         "role": "default"
     },
     {
-        "name": "group764930239_lev3.001",
-        "x": -10.056,
-        "y": 4.4735,
-        "z": -7.2221,
+        "name": "node_lev3",
+        "x": 0.0,
+        "y": 5.8255,
+        "z": 39.0288,
         "level": 3,
         "role": "default"
     },
     {
-        "name": "group764930239_lev3.002",
-        "x": -2.8502,
-        "y": 4.9798,
-        "z": -7.2221,
+        "name": "paint_bucket_lev3.001",
+        "x": -13.9802,
+        "y": 0.0,
+        "z": 8.1472,
         "level": 3,
         "role": "default"
     },
     {
-        "name": "group418243690_lev3.007",
-        "x": 4.8781,
-        "y": 1.6544,
-        "z": 31.1412,
+        "name": "paint_bucket_lev3.002",
+        "x": -8.2452,
+        "y": 0.0,
+        "z": 25.144,
         "level": 3,
         "role": "default"
     },
     {
-        "name": "group418243690_lev3.008",
-        "x": -30.5786,
-        "y": 1.6544,
-        "z": 31.1412,
+        "name": "paint_bucket_lev3.003",
+        "x": 42.61,
+        "y": 0.0,
+        "z": 25.144,
         "level": 3,
         "role": "default"
     },
     {
-        "name": "group418243690_lev3.009",
-        "x": 18.9576,
-        "y": 1.6544,
-        "z": -30.8886,
+        "name": "paint_bucket_lev3.004",
+        "x": -23.063,
+        "y": 0.0,
+        "z": 25.144,
         "level": 3,
         "role": "default"
     },
     {
-        "name": "group17020863_lev3.014",
-        "x": 27.8608,
-        "y": 1.7503,
-        "z": -24.5094,
+        "name": "paint_bucket_lev3",
+        "x": -24.6085,
+        "y": 0.0,
+        "z": 11.1805,
         "level": 3,
         "role": "default"
     }

@@ -1,37 +1,5 @@
 [
     {
-        "name": "n2_spikes_light_grey_0_lev2.003",
-        "x": 3.4321,
-        "y": 0.2,
-        "z": 3.2331,
-        "level": 2,
-        "role": "default"
-    },
-    {
-        "name": "n2_spikes_light_grey_0_lev2.004",
-        "x": 21.4433,
-        "y": 0.2,
-        "z": 3.2331,
-        "level": 2,
-        "role": "default"
-    },
-    {
-        "name": "n2_spikes_light_grey_0_lev2.005",
-        "x": 21.4433,
-        "y": 0.2,
-        "z": 42.4184,
-        "level": 2,
-        "role": "default"
-    },
-    {
-        "name": "n2_spikes_light_grey_0_lev2.006",
-        "x": -53.3985,
-        "y": 0.2,
-        "z": -46.1538,
-        "level": 2,
-        "role": "default"
-    },
-    {
         "name": "n2_spikes_light_grey_0_lev2.007",
         "x": -28.1783,
         "y": 0.2,
@@ -2536,26 +2504,34 @@
         "role": "default"
     },
     {
-        "name": "n2_wooden_box_light_brown_0_lev2.009",
-        "x": 48.6096,
-        "y": 0.5773,
-        "z": 26.9969,
+        "name": "n2_spikes_light_grey_0_lev2.003",
+        "x": 3.4321,
+        "y": 0.2,
+        "z": 3.2331,
         "level": 2,
         "role": "default"
     },
     {
-        "name": "n2_wooden_box_light_brown_0_lev2.010",
-        "x": 45.3623,
-        "y": 0.5773,
-        "z": 19.974,
+        "name": "n2_spikes_light_grey_0_lev2.004",
+        "x": 21.4433,
+        "y": 0.2,
+        "z": 3.2331,
         "level": 2,
         "role": "default"
     },
     {
-        "name": "n2_bone_beige_0_lev2.007",
-        "x": 42.3182,
-        "y": 0.32,
-        "z": 39.2004,
+        "name": "n2_spikes_light_grey_0_lev2.005",
+        "x": 21.4433,
+        "y": 0.2,
+        "z": 42.4184,
+        "level": 2,
+        "role": "default"
+    },
+    {
+        "name": "n2_spikes_light_grey_0_lev2.006",
+        "x": -53.3985,
+        "y": 0.2,
+        "z": -46.1538,
         "level": 2,
         "role": "default"
     }

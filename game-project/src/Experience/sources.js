@@ -37,907 +37,6 @@ export default [
         type: 'gltfModel',
         path: '/models/Enemy/zombies.glb'
     },
-    
-    {
-        name: 'n4_plate_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_plate_002_lev4.glb'
-    },
-    {
-        name: 'n4_plate_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_plate_003_lev4.glb'
-    },
-    {
-        name: 'n4_plate_003_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_plate_003_lev4.001.glb'
-    },
-    {
-        name: 'n4_pointer_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_pointer_001_lev4.glb'
-    },
-    {
-        name: 'n4_prize_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_prize_lev4.glb'
-    },
-    {
-        name: 'n4_stall_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_stall_001_lev4.glb'
-    },
-    {
-        name: 'n4_stall_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_stall_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_stall_table_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_stall_table_001_lev4.glb'
-    },
-    {
-        name: 'n4_stall_table_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_stall_table_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_table_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_table_001_lev4.glb'
-    },
-    {
-        name: 'n4_table_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_table_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_text_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_text_lev4.glb'
-    },
-    {
-        name: 'n4_text_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_text_lev4.001.glb'
-    },
-    {
-        name: 'n4_torture_device_011_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_torture_device_011_lev4.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.003.glb'
-    },
-    {
-        name: 'n4_bag_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_001_lev4.glb'
-    },
-    {
-        name: 'n4_bag_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_bag_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_002_lev4.glb'
-    },
-    {
-        name: 'n4_bag_002_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_002_lev4.001.glb'
-    },
-    {
-        name: 'n4_bag_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_003_lev4.glb'
-    },
-    {
-        name: 'n4_bag_003_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_003_lev4.001.glb'
-    },
-    {
-        name: 'n4_bag_004_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_004_lev4.glb'
-    },
-    {
-        name: 'n4_bag_004_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bag_004_lev4.001.glb'
-    },
-    {
-        name: 'n4_barrel_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_barrel_001_lev4.glb'
-    },
-    {
-        name: 'n4_barrel_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_barrel_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_big_fabulous_tree_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.glb'
-    },
-    {
-        name: 'n4_big_fabulous_tree_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_big_fabulous_tree_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_box_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_box_001_lev4.glb'
-    },
-    {
-        name: 'n4_box_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_box_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_box_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_box_002_lev4.glb'
-    },
-    {
-        name: 'n4_box_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_box_003_lev4.glb'
-    },
-    {
-        name: 'n4_box_003_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_box_003_lev4.001.glb'
-    },
-    {
-        name: 'n4_bucket_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_bucket_001_lev4.glb'
-    },
-    {
-        name: 'n4_cactus_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cactus_001_lev4.glb'
-    },
-    {
-        name: 'n4_cart_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cart_001_lev4.glb'
-    },
-    {
-        name: 'n4_cart_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cart_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_cart_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cart_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_coin_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_coin_lev4.glb'
-    },
-    {
-        name: 'n4_coin_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_coin_lev4.001.glb'
-    },
-    {
-        name: 'n4_coin_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_coin_lev4.002.glb'
-    },
-    {
-        name: 'n4_coin_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_coin_lev4.003.glb'
-    },
-    {
-        name: 'n4_coin_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_coin_lev4.004.glb'
-    },
-    {
-        name: 'n4_crane_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_crane_001_lev4.glb'
-    },
-    {
-        name: 'n4_crane_hook_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_crane_hook_001_lev4.glb'
-    },
-    {
-        name: 'n4_crane_rope_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_crane_rope_001_lev4.glb'
-    },
-    {
-        name: 'n4_crane_wheel_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_crane_wheel_001_lev4.glb'
-    },
-    {
-        name: 'n4_crane_wheel_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_crane_wheel_002_lev4.glb'
-    },
-    {
-        name: 'n4_cube_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cube_lev4.glb'
-    },
-    {
-        name: 'n4_cube_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cube_lev4.001.glb'
-    },
-    {
-        name: 'n4_cylinder_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cylinder_lev4.glb'
-    },
-    {
-        name: 'n4_cylinder_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cylinder_lev4.001.glb'
-    },
-    {
-        name: 'n4_cylinder_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cylinder_lev4.002.glb'
-    },
-    {
-        name: 'n4_cylinder_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cylinder_lev4.003.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_001_lev4.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.001.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.002.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.003.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.004.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_003_lev4.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_003_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_003_lev4.001.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.001.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.003.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.004.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.005.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.003.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.004.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.005.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.006.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.007',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.007.glb'
-    },
-    {
-        name: 'n4_holder_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_holder_001_lev4.glb'
-    },
-    {
-        name: 'n4_house_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_001_lev4.glb'
-    },
-    {
-        name: 'n4_house_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_house_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_house_001_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_001_lev4.003.glb'
-    },
-    {
-        name: 'n4_house_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.001.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.002.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.003.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.004.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.005.glb'
-    },
-    {
-        name: 'n4_house_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.001.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.002.glb'
-    },
-    {
-        name: 'n4_jug_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_001_lev4.glb'
-    },
-    {
-        name: 'n4_jug_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_jug_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_002_lev4.glb'
-    },
-    {
-        name: 'n4_jug_002_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_002_lev4.001.glb'
-    },
-    {
-        name: 'n4_jug_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_003_lev4.glb'
-    },
-    {
-        name: 'n4_jug_003_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_003_lev4.001.glb'
-    },
-    {
-        name: 'n4_jug_004_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_004_lev4.glb'
-    },
-    {
-        name: 'n4_jug_004_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_004_lev4.001.glb'
-    },
-    {
-        name: 'n4_jug_005_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_005_lev4.glb'
-    },
-    {
-        name: 'n4_jug_005_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_jug_005_lev4.001.glb'
-    },
-    {
-        name: 'n4_log_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_log_001_lev4.glb'
-    },
-    {
-        name: 'n4_log_002_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_log_002_lev4.glb'
-    },
-    {
-        name: 'n4_log_003_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_log_003_lev4.glb'
-    },
-    {
-        name: 'n4_log_004_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_log_004_lev4.glb'
-    },
-    {
-        name: 'n4_pin_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_pin_lev4.glb'
-    },
-    {
-        name: 'n4_plate_001_lev4',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_plate_001_lev4.glb'
-    },
-    {
-        name: 'n4_plate_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_plate_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_plate_002_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_plate_002_lev4.001.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.003.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.008',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.008.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.009',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.009.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.010',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.010.glb'
-    },
-    {
-        name: 'n4_house_001_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_001_lev4.004.glb'
-    },
-    {
-        name: 'n4_house_001_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_001_lev4.005.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.006.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.006.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.007',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.007.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.011',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.011.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.004.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.005.glb'
-    },
-    {
-        name: 'n4_tree_001_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_tree_001_lev4.006.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.005.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.002.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.003.glb'
-    },
-    {
-        name: 'n4_cactus_001_lev4.001',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cactus_001_lev4.001.glb'
-    },
-    {
-        name: 'n4_cactus_001_lev4.002',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cactus_001_lev4.002.glb'
-    },
-    {
-        name: 'n4_big_fabulous_tree_001_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.003.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.007',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.007.glb'
-    },
-    {
-        name: 'n4_cart_001_lev4.003',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cart_001_lev4.003.glb'
-    },
-    {
-        name: 'n4_cart_001_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_cart_001_lev4.004.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.004.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.005.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.006.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.007',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.007.glb'
-    },
-    {
-        name: 'n4_house_002_lev4.008',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_002_lev4.008.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.012',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.012.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.013',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.013.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.014',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.014.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.015',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.015.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.016',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.016.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.017',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.017.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.018',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.018.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.019',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.019.glb'
-    },
-    {
-        name: 'n4_fabulous_tree_001_lev4.008',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.008.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.004',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.004.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.005',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.005.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.006.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.007',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.007.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.008',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.008.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.009',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.009.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.010',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.010.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_004_lev4.011',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.011.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.020',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.020.glb'
-    },
-    {
-        name: 'n4_house_003_lev4.008',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_house_003_lev4.008.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.021',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.021.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.006',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.006.glb'
-    },
-    {
-        name: 'n4_fir_001_lev4.022',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fir_001_lev4.022.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.007',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.007.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.008',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.008.glb'
-    },
-    {
-        name: 'n4_fabulous_mushroom_002_lev4.009',
-        type: 'gltfModel',
-        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.009.glb'
-    },
-    {
-        name: 'tree-large_lev1',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-large_lev1.glb'
-    },
-    {
-        name: 'tree-large_lev1.024',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-large_lev1.024.glb'
-    },
-    {
-        name: 'tree-large_lev1.038',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-large_lev1.038.glb'
-    },
-    {
-        name: 'tree-large_lev1.040',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-large_lev1.040.glb'
-    },
-    {
-        name: 'tree-large_lev1.041',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-large_lev1.041.glb'
-    },
-    {
-        name: 'tree-large_lev1.042',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-large_lev1.042.glb'
-    },
-    {
-        name: 'tree-small_lev1.001',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-small_lev1.001.glb'
-    },
-    {
-        name: 'tree-small_lev1.002',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-small_lev1.002.glb'
-    },
-    {
-        name: 'tree-small_lev1.003',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-small_lev1.003.glb'
-    },
-    {
-        name: 'tree-small_lev1',
-        type: 'gltfModel',
-        path: '/models/toycarN1/tree-small_lev1.glb'
-    },
-    {
-        name: 'wall_lev1',
-        type: 'gltfModel',
-        path: '/models/toycarN1/wall_lev1.glb'
-    },
-    {
-        name: 'building-type-l_lev1',
-        type: 'gltfModel',
-        path: '/models/toycarN1/building-type-l_lev1.glb'
-    },
-    {
-        name: 'building-type-q_lev1',
-        type: 'gltfModel',
-        path: '/models/toycarN1/building-type-q_lev1.glb'
-    },
-    {
-        name: 'building-type-r_lev1.001',
-        type: 'gltfModel',
-        path: '/models/toycarN1/building-type-r_lev1.001.glb'
-    },
     {
         name: 'building-type-r_lev1',
         type: 'gltfModel',
@@ -1644,6 +743,11 @@ export default [
         path: '/models/toycarN1/tree-large_lev1.023.glb'
     },
     {
+        name: 'tree-large_lev1.024',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-large_lev1.024.glb'
+    },
+    {
         name: 'tree-large_lev1.025',
         type: 'gltfModel',
         path: '/models/toycarN1/tree-large_lev1.025.glb'
@@ -1709,24 +813,74 @@ export default [
         path: '/models/toycarN1/tree-large_lev1.037.glb'
     },
     {
+        name: 'tree-large_lev1.038',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-large_lev1.038.glb'
+    },
+    {
         name: 'tree-large_lev1.039',
         type: 'gltfModel',
         path: '/models/toycarN1/tree-large_lev1.039.glb'
     },
     {
-        name: 'n2_spikes_light_grey_0_lev2.004',
+        name: 'tree-large_lev1.040',
         type: 'gltfModel',
-        path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.004.glb'
+        path: '/models/toycarN1/tree-large_lev1.040.glb'
     },
     {
-        name: 'n2_spikes_light_grey_0_lev2.005',
+        name: 'tree-large_lev1.041',
         type: 'gltfModel',
-        path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.005.glb'
+        path: '/models/toycarN1/tree-large_lev1.041.glb'
     },
     {
-        name: 'n2_spikes_light_grey_0_lev2.006',
+        name: 'tree-large_lev1.042',
         type: 'gltfModel',
-        path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.006.glb'
+        path: '/models/toycarN1/tree-large_lev1.042.glb'
+    },
+    {
+        name: 'tree-large_lev1',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-large_lev1.glb'
+    },
+    {
+        name: 'tree-small_lev1.001',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-small_lev1.001.glb'
+    },
+    {
+        name: 'tree-small_lev1.002',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-small_lev1.002.glb'
+    },
+    {
+        name: 'tree-small_lev1.003',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-small_lev1.003.glb'
+    },
+    {
+        name: 'tree-small_lev1',
+        type: 'gltfModel',
+        path: '/models/toycarN1/tree-small_lev1.glb'
+    },
+    {
+        name: 'wall_lev1',
+        type: 'gltfModel',
+        path: '/models/toycarN1/wall_lev1.glb'
+    },
+    {
+        name: 'building-type-l_lev1',
+        type: 'gltfModel',
+        path: '/models/toycarN1/building-type-l_lev1.glb'
+    },
+    {
+        name: 'building-type-q_lev1',
+        type: 'gltfModel',
+        path: '/models/toycarN1/building-type-q_lev1.glb'
+    },
+    {
+        name: 'building-type-r_lev1.001',
+        type: 'gltfModel',
+        path: '/models/toycarN1/building-type-r_lev1.001.glb'
     },
     {
         name: 'n2_spikes_light_grey_0_lev2.007',
@@ -1959,6 +1113,96 @@ export default [
         path: '/models/toycarN2/n2_barrel_lev2.035.glb'
     },
     {
+        name: 'n2_barrel_lev2.036',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.036.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.037',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.037.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.038',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.038.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.039',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.039.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.040',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.040.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.041',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.041.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.042',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.042.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.043',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.043.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.044',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.044.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.045',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.045.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.046',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.046.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.047',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.047.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.048',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.048.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.049',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.049.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.050',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.050.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.051',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.051.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.052',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.052.glb'
+    },
+    {
+        name: 'n2_barrel_lev2.053',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_lev2.053.glb'
+    },
+    {
         name: 'n2_barrel_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_barrel_lev2.glb'
@@ -2017,6 +1261,16 @@ export default [
         name: 'n2_barrel_light_brown_0_lev2.011',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_barrel_light_brown_0_lev2.011.glb'
+    },
+    {
+        name: 'n2_barrel_light_brown_0_lev2.012',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_light_brown_0_lev2.012.glb'
+    },
+    {
+        name: 'n2_barrel_light_brown_0_lev2.013',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_light_brown_0_lev2.013.glb'
     },
     {
         name: 'n2_barrel_light_brown_0_lev2',
@@ -2079,6 +1333,16 @@ export default [
         path: '/models/toycarN2/n2_barrel_light_grey_0_lev2.011.glb'
     },
     {
+        name: 'n2_barrel_light_grey_0_lev2.012',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_light_grey_0_lev2.012.glb'
+    },
+    {
+        name: 'n2_barrel_light_grey_0_lev2.013',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_barrel_light_grey_0_lev2.013.glb'
+    },
+    {
         name: 'n2_barrel_light_grey_0_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_barrel_light_grey_0_lev2.glb'
@@ -2092,6 +1356,16 @@ export default [
         name: 'n2_bars_lev2.002',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_bars_lev2.002.glb'
+    },
+    {
+        name: 'n2_bars_lev2.003',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_bars_lev2.003.glb'
+    },
+    {
+        name: 'n2_bars_lev2.004',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_bars_lev2.004.glb'
     },
     {
         name: 'n2_bars_lev2',
@@ -2207,6 +1481,16 @@ export default [
         name: 'n2_bone_beige_0_lev2.004',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_bone_beige_0_lev2.004.glb'
+    },
+    {
+        name: 'n2_bone_beige_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_bone_beige_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_bone_beige_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_bone_beige_0_lev2.006.glb'
     },
     {
         name: 'n2_bone_beige_0_lev2',
@@ -2619,6 +1903,26 @@ export default [
         path: '/models/toycarN2/n2_brick_wall_lev2.081.glb'
     },
     {
+        name: 'n2_brick_wall_lev2.082',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_brick_wall_lev2.082.glb'
+    },
+    {
+        name: 'n2_brick_wall_lev2.083',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_brick_wall_lev2.083.glb'
+    },
+    {
+        name: 'n2_brick_wall_lev2.084',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_brick_wall_lev2.084.glb'
+    },
+    {
+        name: 'n2_brick_wall_lev2.085',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_brick_wall_lev2.085.glb'
+    },
+    {
         name: 'n2_brick_wall_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_brick_wall_lev2.glb'
@@ -2654,6 +1958,16 @@ export default [
         path: '/models/toycarN2/n2_chest_bottom_dark_brown_0_lev2.004.glb'
     },
     {
+        name: 'n2_chest_bottom_dark_brown_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_bottom_dark_brown_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chest_bottom_dark_brown_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_bottom_dark_brown_0_lev2.006.glb'
+    },
+    {
         name: 'n2_chest_bottom_dark_brown_0_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chest_bottom_dark_brown_0_lev2.glb'
@@ -2677,6 +1991,16 @@ export default [
         name: 'n2_chest_bottom_light_brown_0_lev2.004',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chest_bottom_light_brown_0_lev2.004.glb'
+    },
+    {
+        name: 'n2_chest_bottom_light_brown_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_bottom_light_brown_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chest_bottom_light_brown_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_bottom_light_brown_0_lev2.006.glb'
     },
     {
         name: 'n2_chest_bottom_light_brown_0_lev2',
@@ -2704,9 +2028,24 @@ export default [
         path: '/models/toycarN2/n2_chest_bottom_light_grey_0_lev2.004.glb'
     },
     {
+        name: 'n2_chest_bottom_light_grey_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_bottom_light_grey_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chest_bottom_light_grey_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_bottom_light_grey_0_lev2.006.glb'
+    },
+    {
         name: 'n2_chest_bottom_light_grey_0_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chest_bottom_light_grey_0_lev2.glb'
+    },
+    {
+        name: 'n2_chest_top_black_0_lev2.001',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_black_0_lev2.001.glb'
     },
     {
         name: 'n2_chest_top_black_0_lev2',
@@ -2734,6 +2073,16 @@ export default [
         path: '/models/toycarN2/n2_chest_top_dark_brown_0_lev2.004.glb'
     },
     {
+        name: 'n2_chest_top_dark_brown_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_dark_brown_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chest_top_dark_brown_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_dark_brown_0_lev2.006.glb'
+    },
+    {
         name: 'n2_chest_top_dark_brown_0_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chest_top_dark_brown_0_lev2.glb'
@@ -2757,6 +2106,16 @@ export default [
         name: 'n2_chest_top_light_brown_0_lev2.004',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chest_top_light_brown_0_lev2.004.glb'
+    },
+    {
+        name: 'n2_chest_top_light_brown_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_light_brown_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chest_top_light_brown_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_light_brown_0_lev2.006.glb'
     },
     {
         name: 'n2_chest_top_light_brown_0_lev2',
@@ -2784,6 +2143,16 @@ export default [
         path: '/models/toycarN2/n2_chest_top_light_grey_0_lev2.004.glb'
     },
     {
+        name: 'n2_chest_top_light_grey_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_light_grey_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chest_top_light_grey_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chest_top_light_grey_0_lev2.006.glb'
+    },
+    {
         name: 'n2_chest_top_light_grey_0_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chest_top_light_grey_0_lev2.glb'
@@ -2807,6 +2176,16 @@ export default [
         name: 'n2_chests_gold_yellow_0_lev2.004',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_chests_gold_yellow_0_lev2.004.glb'
+    },
+    {
+        name: 'n2_chests_gold_yellow_0_lev2.005',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chests_gold_yellow_0_lev2.005.glb'
+    },
+    {
+        name: 'n2_chests_gold_yellow_0_lev2.006',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_chests_gold_yellow_0_lev2.006.glb'
     },
     {
         name: 'n2_chests_gold_yellow_0_lev2',
@@ -2849,6 +2228,11 @@ export default [
         path: '/models/toycarN2/n2_damaged_railing_left_grey_0_lev2.002.glb'
     },
     {
+        name: 'n2_damaged_railing_left_grey_0_lev2.003',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_damaged_railing_left_grey_0_lev2.003.glb'
+    },
+    {
         name: 'n2_damaged_railing_left_grey_0_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_damaged_railing_left_grey_0_lev2.glb'
@@ -2882,6 +2266,21 @@ export default [
         name: 'n2_pillar_grey_0_lev2.006',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_pillar_grey_0_lev2.006.glb'
+    },
+    {
+        name: 'n2_pillar_grey_0_lev2.007',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_pillar_grey_0_lev2.007.glb'
+    },
+    {
+        name: 'n2_pillar_grey_0_lev2.008',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_pillar_grey_0_lev2.008.glb'
+    },
+    {
+        name: 'n2_pillar_grey_0_lev2.009',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_pillar_grey_0_lev2.009.glb'
     },
     {
         name: 'n2_pillar_grey_0_lev2',
@@ -2984,6 +2383,11 @@ export default [
         path: '/models/toycarN2/n2_rock_lev2.016.glb'
     },
     {
+        name: 'n2_rock_lev2.017',
+        type: 'gltfModel',
+        path: '/models/toycarN2/n2_rock_lev2.017.glb'
+    },
+    {
         name: 'n2_rock_lev2',
         type: 'gltfModel',
         path: '/models/toycarN2/n2_rock_lev2.glb'
@@ -3049,334 +2453,19 @@ export default [
         path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.003.glb'
     },
     {
-        name: 'n2_rock_lev2.017',
+        name: 'n2_spikes_light_grey_0_lev2.004',
         type: 'gltfModel',
-        path: '/models/toycarN2/n2_rock_lev2.017.glb'
+        path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.004.glb'
     },
     {
-        name: 'n2_damaged_railing_left_grey_0_lev2.003',
+        name: 'n2_spikes_light_grey_0_lev2.005',
         type: 'gltfModel',
-        path: '/models/toycarN2/n2_damaged_railing_left_grey_0_lev2.003.glb'
+        path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.005.glb'
     },
     {
-        name: 'n2_pillar_grey_0_lev2.007',
+        name: 'n2_spikes_light_grey_0_lev2.006',
         type: 'gltfModel',
-        path: '/models/toycarN2/n2_pillar_grey_0_lev2.007.glb'
-    },
-    {
-        name: 'n2_brick_wall_lev2.082',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_brick_wall_lev2.082.glb'
-    },
-    {
-        name: 'n2_brick_wall_lev2.083',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_brick_wall_lev2.083.glb'
-    },
-    {
-        name: 'n2_brick_wall_lev2.084',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_brick_wall_lev2.084.glb'
-    },
-    {
-        name: 'n2_brick_wall_lev2.085',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_brick_wall_lev2.085.glb'
-    },
-    {
-        name: 'n2_bone_beige_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_bone_beige_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_bone_beige_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_bone_beige_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_bars_lev2.003',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_bars_lev2.003.glb'
-    },
-    {
-        name: 'n2_bars_lev2.004',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_bars_lev2.004.glb'
-    },
-    {
-        name: 'n2_chests_gold_yellow_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chests_gold_yellow_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_chest_top_light_grey_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_light_grey_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_chest_top_light_brown_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_light_brown_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_chest_top_dark_brown_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_dark_brown_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_chest_top_black_0_lev2.001',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_black_0_lev2.001.glb'
-    },
-    {
-        name: 'n2_chest_bottom_light_grey_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_bottom_light_grey_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_chest_bottom_light_brown_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_bottom_light_brown_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_chest_bottom_dark_brown_0_lev2.005',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_bottom_dark_brown_0_lev2.005.glb'
-    },
-    {
-        name: 'n2_barrel_light_grey_0_lev2.012',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_light_grey_0_lev2.012.glb'
-    },
-    {
-        name: 'n2_barrel_light_brown_0_lev2.012',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_light_brown_0_lev2.012.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.036',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.036.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.037',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.037.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.038',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.038.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.039',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.039.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.040',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.040.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.041',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.041.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.042',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.042.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.043',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.043.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.044',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.044.glb'
-    },
-    {
-        name: 'n2_chests_gold_yellow_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chests_gold_yellow_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_chest_top_light_grey_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_light_grey_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_chest_top_light_brown_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_light_brown_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_chest_top_dark_brown_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_top_dark_brown_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_chest_bottom_light_grey_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_bottom_light_grey_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_chest_bottom_light_brown_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_bottom_light_brown_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_chest_bottom_dark_brown_0_lev2.006',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_chest_bottom_dark_brown_0_lev2.006.glb'
-    },
-    {
-        name: 'n2_barrel_light_grey_0_lev2.013',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_light_grey_0_lev2.013.glb'
-    },
-    {
-        name: 'n2_barrel_light_brown_0_lev2.013',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_light_brown_0_lev2.013.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.045',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.045.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.046',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.046.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.047',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.047.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.048',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.048.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.049',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.049.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.050',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.050.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.051',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.051.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.052',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.052.glb'
-    },
-    {
-        name: 'n2_barrel_lev2.053',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_barrel_lev2.053.glb'
-    },
-    {
-        name: 'n2_pillar_grey_0_lev2.008',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_pillar_grey_0_lev2.008.glb'
-    },
-    {
-        name: 'n2_pillar_grey_0_lev2.009',
-        type: 'gltfModel',
-        path: '/models/toycarN2/n2_pillar_grey_0_lev2.009.glb'
-    },
-    {
-        name: 'cartell3_lev3',
-        type: 'gltfModel',
-        path: '/models/toycarN3/cartell3_lev3.glb'
-    },
-    {
-        name: 'node_lev3.028',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.028.glb'
-    },
-    {
-        name: 'node_lev3.029',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.029.glb'
-    },
-    {
-        name: 'node_lev3.030',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.030.glb'
-    },
-    {
-        name: 'node_lev3.031',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.031.glb'
-    },
-    {
-        name: 'node_lev3.032',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.032.glb'
-    },
-    {
-        name: 'node_lev3.033',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.033.glb'
-    },
-    {
-        name: 'node_lev3.034',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.034.glb'
-    },
-    {
-        name: 'node_lev3.035',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.035.glb'
-    },
-    {
-        name: 'node_lev3.036',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.036.glb'
-    },
-    {
-        name: 'node_lev3.037',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.037.glb'
-    },
-    {
-        name: 'node_lev3',
-        type: 'gltfModel',
-        path: '/models/toycarN3/node_lev3.glb'
-    },
-    {
-        name: 'paint_bucket_lev3.001',
-        type: 'gltfModel',
-        path: '/models/toycarN3/paint_bucket_lev3.001.glb'
-    },
-    {
-        name: 'paint_bucket_lev3.002',
-        type: 'gltfModel',
-        path: '/models/toycarN3/paint_bucket_lev3.002.glb'
-    },
-    {
-        name: 'paint_bucket_lev3.003',
-        type: 'gltfModel',
-        path: '/models/toycarN3/paint_bucket_lev3.003.glb'
-    },
-    {
-        name: 'paint_bucket_lev3',
-        type: 'gltfModel',
-        path: '/models/toycarN3/paint_bucket_lev3.glb'
+        path: '/models/toycarN2/n2_spikes_light_grey_0_lev2.006.glb'
     },
     {
         name: 'pin_lev3',
@@ -3407,6 +2496,16 @@ export default [
         name: 'text_lev3',
         type: 'gltfModel',
         path: '/models/toycarN3/text_lev3.glb'
+    },
+    {
+        name: 'cartell3_lev3.001',
+        type: 'gltfModel',
+        path: '/models/toycarN3/cartell3_lev3.001.glb'
+    },
+    {
+        name: 'cartell3_lev3',
+        type: 'gltfModel',
+        path: '/models/toycarN3/cartell3_lev3.glb'
     },
     {
         name: 'coin_lev3.001',
@@ -3557,6 +2656,11 @@ export default [
         name: 'group17020863_lev3.012',
         type: 'gltfModel',
         path: '/models/toycarN3/group17020863_lev3.012.glb'
+    },
+    {
+        name: 'group17020863_lev3.013',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group17020863_lev3.013.glb'
     },
     {
         name: 'group17020863_lev3',
@@ -3809,6 +2913,11 @@ export default [
         path: '/models/toycarN3/group418243690_lev3.005.glb'
     },
     {
+        name: 'group418243690_lev3.006',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group418243690_lev3.006.glb'
+    },
+    {
         name: 'group418243690_lev3',
         type: 'gltfModel',
         path: '/models/toycarN3/group418243690_lev3.glb'
@@ -3887,6 +2996,11 @@ export default [
         name: 'group479889598_lev3.009',
         type: 'gltfModel',
         path: '/models/toycarN3/group479889598_lev3.009.glb'
+    },
+    {
+        name: 'group479889598_lev3.010',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group479889598_lev3.010.glb'
     },
     {
         name: 'group479889598_lev3',
@@ -3984,6 +3098,11 @@ export default [
         path: '/models/toycarN3/group595062873_lev3.015.glb'
     },
     {
+        name: 'group595062873_lev3.016',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group595062873_lev3.016.glb'
+    },
+    {
         name: 'group595062873_lev3',
         type: 'gltfModel',
         path: '/models/toycarN3/group595062873_lev3.glb'
@@ -4002,6 +3121,11 @@ export default [
         name: 'group604741097_lev3.003',
         type: 'gltfModel',
         path: '/models/toycarN3/group604741097_lev3.003.glb'
+    },
+    {
+        name: 'group604741097_lev3.004',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group604741097_lev3.004.glb'
     },
     {
         name: 'group604741097_lev3',
@@ -4589,6 +3713,11 @@ export default [
         path: '/models/toycarN3/group1512100864_lev3.003.glb'
     },
     {
+        name: 'group1512100864_lev3.004',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group1512100864_lev3.004.glb'
+    },
+    {
         name: 'group1512100864_lev3',
         type: 'gltfModel',
         path: '/models/toycarN3/group1512100864_lev3.glb'
@@ -4642,6 +3771,11 @@ export default [
         name: 'group1564940181_lev3.006',
         type: 'gltfModel',
         path: '/models/toycarN3/group1564940181_lev3.006.glb'
+    },
+    {
+        name: 'group1564940181_lev3.007',
+        type: 'gltfModel',
+        path: '/models/toycarN3/group1564940181_lev3.007.glb'
     },
     {
         name: 'group1564940181_lev3',
@@ -4989,9 +4123,74 @@ export default [
         path: '/models/toycarN3/node_lev3.027.glb'
     },
     {
-        name: 'cartell3_lev3.001',
+        name: 'node_lev3.028',
         type: 'gltfModel',
-        path: '/models/toycarN3/cartell3_lev3.001.glb'
+        path: '/models/toycarN3/node_lev3.028.glb'
+    },
+    {
+        name: 'node_lev3.029',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.029.glb'
+    },
+    {
+        name: 'node_lev3.030',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.030.glb'
+    },
+    {
+        name: 'node_lev3.031',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.031.glb'
+    },
+    {
+        name: 'node_lev3.032',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.032.glb'
+    },
+    {
+        name: 'node_lev3.033',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.033.glb'
+    },
+    {
+        name: 'node_lev3.034',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.034.glb'
+    },
+    {
+        name: 'node_lev3.035',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.035.glb'
+    },
+    {
+        name: 'node_lev3.036',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.036.glb'
+    },
+    {
+        name: 'node_lev3.037',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.037.glb'
+    },
+    {
+        name: 'node_lev3',
+        type: 'gltfModel',
+        path: '/models/toycarN3/node_lev3.glb'
+    },
+    {
+        name: 'paint_bucket_lev3.001',
+        type: 'gltfModel',
+        path: '/models/toycarN3/paint_bucket_lev3.001.glb'
+    },
+    {
+        name: 'paint_bucket_lev3.002',
+        type: 'gltfModel',
+        path: '/models/toycarN3/paint_bucket_lev3.002.glb'
+    },
+    {
+        name: 'paint_bucket_lev3.003',
+        type: 'gltfModel',
+        path: '/models/toycarN3/paint_bucket_lev3.003.glb'
     },
     {
         name: 'paint_bucket_lev3.004',
@@ -4999,79 +4198,839 @@ export default [
         path: '/models/toycarN3/paint_bucket_lev3.004.glb'
     },
     {
-        name: 'group1564940181_lev3.007',
+        name: 'paint_bucket_lev3',
         type: 'gltfModel',
-        path: '/models/toycarN3/group1564940181_lev3.007.glb'
+        path: '/models/toycarN3/paint_bucket_lev3.glb'
     },
     {
-        name: 'group479889598_lev3.010',
+        name: 'n4_tree_001_lev4.002',
         type: 'gltfModel',
-        path: '/models/toycarN3/group479889598_lev3.010.glb'
+        path: '/models/toycarN4/n4_tree_001_lev4.002.glb'
     },
     {
-        name: 'group418243690_lev3.006',
+        name: 'n4_tree_001_lev4.003',
         type: 'gltfModel',
-        path: '/models/toycarN3/group418243690_lev3.006.glb'
+        path: '/models/toycarN4/n4_tree_001_lev4.003.glb'
     },
     {
-        name: 'group595062873_lev3.016',
+        name: 'n4_tree_001_lev4.004',
         type: 'gltfModel',
-        path: '/models/toycarN3/group595062873_lev3.016.glb'
+        path: '/models/toycarN4/n4_tree_001_lev4.004.glb'
     },
     {
-        name: 'group604741097_lev3.004',
+        name: 'n4_tree_001_lev4.005',
         type: 'gltfModel',
-        path: '/models/toycarN3/group604741097_lev3.004.glb'
+        path: '/models/toycarN4/n4_tree_001_lev4.005.glb'
     },
     {
-        name: 'group1512100864_lev3.004',
+        name: 'n4_tree_001_lev4.006',
         type: 'gltfModel',
-        path: '/models/toycarN3/group1512100864_lev3.004.glb'
+        path: '/models/toycarN4/n4_tree_001_lev4.006.glb'
     },
     {
-        name: 'group17020863_lev3.013',
+        name: 'n4_tree_001_lev4',
         type: 'gltfModel',
-        path: '/models/toycarN3/group17020863_lev3.013.glb'
+        path: '/models/toycarN4/n4_tree_001_lev4.glb'
     },
     {
-        name: 'carteleando_lev5',
+        name: 'n4_bag_001_lev4.001',
         type: 'gltfModel',
-        path: '/models/toycarN5/carteleando_lev5.glb'
+        path: '/models/toycarN4/n4_bag_001_lev4.001.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.005',
+        name: 'n4_bag_001_lev4',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.005.glb'
+        path: '/models/toycarN4/n4_bag_001_lev4.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.006',
+        name: 'n4_bag_002_lev4.001',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.006.glb'
+        path: '/models/toycarN4/n4_bag_002_lev4.001.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.007',
+        name: 'n4_bag_002_lev4',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.007.glb'
+        path: '/models/toycarN4/n4_bag_002_lev4.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.008',
+        name: 'n4_bag_003_lev4.001',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.008.glb'
+        path: '/models/toycarN4/n4_bag_003_lev4.001.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.009',
+        name: 'n4_bag_003_lev4',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.009.glb'
+        path: '/models/toycarN4/n4_bag_003_lev4.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.010',
+        name: 'n4_bag_004_lev4.001',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.010.glb'
+        path: '/models/toycarN4/n4_bag_004_lev4.001.glb'
     },
     {
-        name: 'n5_n5_tree_lev5.011',
+        name: 'n4_bag_004_lev4',
         type: 'gltfModel',
-        path: '/models/toycarN5/n5_n5_tree_lev5.011.glb'
+        path: '/models/toycarN4/n4_bag_004_lev4.glb'
+    },
+    {
+        name: 'n4_barrel_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_barrel_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_barrel_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_barrel_001_lev4.glb'
+    },
+    {
+        name: 'n4_big_fabulous_tree_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_big_fabulous_tree_001_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.002.glb'
+    },
+    {
+        name: 'n4_big_fabulous_tree_001_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.003.glb'
+    },
+    {
+        name: 'n4_big_fabulous_tree_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_big_fabulous_tree_001_lev4.glb'
+    },
+    {
+        name: 'n4_box_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_box_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_box_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_box_001_lev4.glb'
+    },
+    {
+        name: 'n4_box_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_box_002_lev4.glb'
+    },
+    {
+        name: 'n4_box_003_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_box_003_lev4.001.glb'
+    },
+    {
+        name: 'n4_box_003_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_box_003_lev4.glb'
+    },
+    {
+        name: 'n4_bucket_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_bucket_001_lev4.glb'
+    },
+    {
+        name: 'n4_cactus_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cactus_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_cactus_001_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cactus_001_lev4.002.glb'
+    },
+    {
+        name: 'n4_cactus_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cactus_001_lev4.glb'
+    },
+    {
+        name: 'n4_cart_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cart_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_cart_001_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cart_001_lev4.002.glb'
+    },
+    {
+        name: 'n4_cart_001_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cart_001_lev4.003.glb'
+    },
+    {
+        name: 'n4_cart_001_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cart_001_lev4.004.glb'
+    },
+    {
+        name: 'n4_cart_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cart_001_lev4.glb'
+    },
+    {
+        name: 'n4_coin_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_coin_lev4.001.glb'
+    },
+    {
+        name: 'n4_coin_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_coin_lev4.002.glb'
+    },
+    {
+        name: 'n4_coin_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_coin_lev4.003.glb'
+    },
+    {
+        name: 'n4_coin_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_coin_lev4.004.glb'
+    },
+    {
+        name: 'n4_coin_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_coin_lev4.glb'
+    },
+    {
+        name: 'n4_crane_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_crane_001_lev4.glb'
+    },
+    {
+        name: 'n4_crane_hook_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_crane_hook_001_lev4.glb'
+    },
+    {
+        name: 'n4_crane_rope_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_crane_rope_001_lev4.glb'
+    },
+    {
+        name: 'n4_crane_wheel_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_crane_wheel_001_lev4.glb'
+    },
+    {
+        name: 'n4_crane_wheel_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_crane_wheel_002_lev4.glb'
+    },
+    {
+        name: 'n4_cube_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cube_lev4.001.glb'
+    },
+    {
+        name: 'n4_cube_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cube_lev4.glb'
+    },
+    {
+        name: 'n4_cylinder_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cylinder_lev4.001.glb'
+    },
+    {
+        name: 'n4_cylinder_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cylinder_lev4.002.glb'
+    },
+    {
+        name: 'n4_cylinder_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cylinder_lev4.003.glb'
+    },
+    {
+        name: 'n4_cylinder_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_cylinder_lev4.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_001_lev4.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.001.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.002.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.003.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.004.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.005.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.006',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.006.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.007',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.007.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.008',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.008.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4.009',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.009.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_002_lev4.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_003_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_003_lev4.001.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_003_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_003_lev4.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.001.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.002.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.003.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.004.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.005.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.006',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.006.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.007',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.007.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.008',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.008.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.009',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.009.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.010',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.010.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4.011',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.011.glb'
+    },
+    {
+        name: 'n4_fabulous_mushroom_004_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_mushroom_004_lev4.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.002.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.003.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.004.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.005.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.006',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.006.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.007',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.007.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4.008',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.008.glb'
+    },
+    {
+        name: 'n4_fabulous_tree_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fabulous_tree_001_lev4.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.002.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.003.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.004.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.005.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.006',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.006.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.007',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.007.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.008',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.008.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.009',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.009.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.010',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.010.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.011',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.011.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.012',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.012.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.013',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.013.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.014',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.014.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.015',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.015.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.016',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.016.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.017',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.017.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.018',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.018.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.019',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.019.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.020',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.020.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.021',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.021.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4.022',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.022.glb'
+    },
+    {
+        name: 'n4_fir_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_fir_001_lev4.glb'
+    },
+    {
+        name: 'n4_holder_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_holder_001_lev4.glb'
+    },
+    {
+        name: 'n4_house_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_house_001_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_001_lev4.002.glb'
+    },
+    {
+        name: 'n4_house_001_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_001_lev4.003.glb'
+    },
+    {
+        name: 'n4_house_001_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_001_lev4.004.glb'
+    },
+    {
+        name: 'n4_house_001_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_001_lev4.005.glb'
+    },
+    {
+        name: 'n4_house_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_001_lev4.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.001.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.002.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.003.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.004.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.005.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.006',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.006.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.007',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.007.glb'
+    },
+    {
+        name: 'n4_house_002_lev4.008',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.008.glb'
+    },
+    {
+        name: 'n4_house_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_002_lev4.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.001.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.002',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.002.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.003',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.003.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.004',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.004.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.005',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.005.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.006',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.006.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.007',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.007.glb'
+    },
+    {
+        name: 'n4_house_003_lev4.008',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.008.glb'
+    },
+    {
+        name: 'n4_house_003_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_house_003_lev4.glb'
+    },
+    {
+        name: 'n4_jug_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_jug_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_001_lev4.glb'
+    },
+    {
+        name: 'n4_jug_002_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_002_lev4.001.glb'
+    },
+    {
+        name: 'n4_jug_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_002_lev4.glb'
+    },
+    {
+        name: 'n4_jug_003_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_003_lev4.001.glb'
+    },
+    {
+        name: 'n4_jug_003_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_003_lev4.glb'
+    },
+    {
+        name: 'n4_jug_004_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_004_lev4.001.glb'
+    },
+    {
+        name: 'n4_jug_004_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_004_lev4.glb'
+    },
+    {
+        name: 'n4_jug_005_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_005_lev4.001.glb'
+    },
+    {
+        name: 'n4_jug_005_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_jug_005_lev4.glb'
+    },
+    {
+        name: 'n4_log_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_log_001_lev4.glb'
+    },
+    {
+        name: 'n4_log_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_log_002_lev4.glb'
+    },
+    {
+        name: 'n4_log_003_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_log_003_lev4.glb'
+    },
+    {
+        name: 'n4_log_004_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_log_004_lev4.glb'
+    },
+    {
+        name: 'n4_pin_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_pin_lev4.glb'
+    },
+    {
+        name: 'n4_plate_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_plate_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_plate_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_plate_001_lev4.glb'
+    },
+    {
+        name: 'n4_plate_002_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_plate_002_lev4.001.glb'
+    },
+    {
+        name: 'n4_plate_002_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_plate_002_lev4.glb'
+    },
+    {
+        name: 'n4_plate_003_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_plate_003_lev4.001.glb'
+    },
+    {
+        name: 'n4_plate_003_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_plate_003_lev4.glb'
+    },
+    {
+        name: 'n4_pointer_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_pointer_001_lev4.glb'
+    },
+    {
+        name: 'n4_prize_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_prize_lev4.glb'
+    },
+    {
+        name: 'n4_stall_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_stall_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_stall_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_stall_001_lev4.glb'
+    },
+    {
+        name: 'n4_stall_table_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_stall_table_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_stall_table_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_stall_table_001_lev4.glb'
+    },
+    {
+        name: 'n4_table_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_table_001_lev4.001.glb'
+    },
+    {
+        name: 'n4_table_001_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_table_001_lev4.glb'
+    },
+    {
+        name: 'n4_text_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_text_lev4.001.glb'
+    },
+    {
+        name: 'n4_text_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_text_lev4.glb'
+    },
+    {
+        name: 'n4_torture_device_011_lev4',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_torture_device_011_lev4.glb'
+    },
+    {
+        name: 'n4_tree_001_lev4.001',
+        type: 'gltfModel',
+        path: '/models/toycarN4/n4_tree_001_lev4.001.glb'
     },
     {
         name: 'n5_n5_tree_lev5.012',
@@ -5102,6 +5061,16 @@ export default [
         name: 'n5_n5_tree_lev5',
         type: 'gltfModel',
         path: '/models/toycarN5/n5_n5_tree_lev5.glb'
+    },
+    {
+        name: 'carteleando_lev5.001',
+        type: 'gltfModel',
+        path: '/models/toycarN5/carteleando_lev5.001.glb'
+    },
+    {
+        name: 'carteleando_lev5',
+        type: 'gltfModel',
+        path: '/models/toycarN5/carteleando_lev5.glb'
     },
     {
         name: 'n5_group50544917_lev5.001',
@@ -8074,8 +8043,38 @@ export default [
         path: '/models/toycarN5/n5_n5_tree_lev5.004.glb'
     },
     {
-        name: 'carteleando_lev5.001',
+        name: 'n5_n5_tree_lev5.005',
         type: 'gltfModel',
-        path: '/models/toycarN5/carteleando_lev5.001.glb'
+        path: '/models/toycarN5/n5_n5_tree_lev5.005.glb'
+    },
+    {
+        name: 'n5_n5_tree_lev5.006',
+        type: 'gltfModel',
+        path: '/models/toycarN5/n5_n5_tree_lev5.006.glb'
+    },
+    {
+        name: 'n5_n5_tree_lev5.007',
+        type: 'gltfModel',
+        path: '/models/toycarN5/n5_n5_tree_lev5.007.glb'
+    },
+    {
+        name: 'n5_n5_tree_lev5.008',
+        type: 'gltfModel',
+        path: '/models/toycarN5/n5_n5_tree_lev5.008.glb'
+    },
+    {
+        name: 'n5_n5_tree_lev5.009',
+        type: 'gltfModel',
+        path: '/models/toycarN5/n5_n5_tree_lev5.009.glb'
+    },
+    {
+        name: 'n5_n5_tree_lev5.010',
+        type: 'gltfModel',
+        path: '/models/toycarN5/n5_n5_tree_lev5.010.glb'
+    },
+    {
+        name: 'n5_n5_tree_lev5.011',
+        type: 'gltfModel',
+        path: '/models/toycarN5/n5_n5_tree_lev5.011.glb'
     },
 ]
