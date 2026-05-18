@@ -1,30 +1,30 @@
-const express = require('express')
-const router = express.Router()
-const Progress = require('../models/Progress')
+require('dotenv').config()
+const mongoose = require('mongoose')
+const Block = require('./models/Block')
+const fs = require('fs')
+const path = require('path')
 
-// Guardar progreso
-router.post('/save', async (req, res) => {
+async function seedDatabase() {
     try {
-        const { username, currentLevel, coinsCollected, totalCoins } = req.body
-        const progress = await Progress.findOneAndUpdate(
-            { username },
-            { currentLevel, coinsCollected, totalCoins, updatedAt: Date.now() },
-            { upsert: true, new: true }
-        )
-        res.json(progress)
-    } catch (err) {
-        res.status(500).json({ message: 'Error guardando progreso' })
-    }
-})
+        await mongoose.connect(process.env.MONGO_URI)
+        console.log('✅ Conectado a MongoDB')
 
-// Cargar progreso
-router.get('/load/:username', async (req, res) => {
-    try {
-        const progress = await Progress.findOne({ username: req.params.username })
-        res.json(progress || { currentLevel: 1, coinsCollected: 0 })
-    } catch (err) {
-        res.status(500).json({ message: 'Error cargando progreso' })
-    }
-})
+        await Block.deleteMany()
+        console.log('🗑️ Colección limpiada')
 
-module.exports = router
+        for (let i = 1; i <= 5; i++) {
+            const filePath = path.join(__dirname, `../game-project/public/data/toy_car_blocks${i}.json`)
+            const blocks = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+            await Block.insertMany(blocks)
+            console.log(`📦 Nivel ${i}: ${blocks.length} bloques insertados`)
+        }
+
+        console.log('✅ Todos los niveles cargados en MongoDB')
+        process.exit()
+    } catch (err) {
+        console.error('❌ Error:', err)
+        process.exit(1)
+    }
+}
+
+seedDatabase()

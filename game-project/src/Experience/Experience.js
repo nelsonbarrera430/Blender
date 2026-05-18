@@ -46,7 +46,9 @@ export default class Experience {
     this.scene.background = new THREE.Color('#87ceeb')
 
     // Recursos
-    this.resources = new Resources(sources)
+    // Obtener nivel actual desde localStorage o usar 1 por defecto
+const startLevel = parseInt(localStorage.getItem('currentLevel') || '1', 10)
+this.resources = new Resources(sources, { currentLevel: startLevel })
 
     this.resources.on('ready', () => {
     if (!this.world) return   // ← agrega solo esta línea

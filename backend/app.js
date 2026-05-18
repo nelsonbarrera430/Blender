@@ -3,6 +3,8 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const blockRoutes = require('./routes/blockRoutes')
+const authRoutes = require('./routes/authRoutes')              // ← NUEVO
+const progressRoutes = require('./routes/progressRoutes')      // ← NUEVO
 
 
 const app = express()
@@ -20,8 +22,9 @@ app.get('/', (req, res) => {
 });
 
 // Rutas
-//app.use('/blocks', blockRoutes)
 app.use('/api/blocks', blockRoutes)
+app.use('/api/auth', authRoutes)                  // ← NUEVO
+app.use('/api/progress', progressRoutes)          // ← NUEVO
 
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
@@ -36,7 +39,7 @@ mongoose.connect(process.env.MONGO_URI)
 const http = require('http');
 const socketio = require('socket.io');
 
-const server = http.createServer(app); // usamos el mismo `app` existente
+const server = http.createServer(app);
 const io = socketio(server, {
     cors: {
         origin: '*'
@@ -59,7 +62,6 @@ io.on('connection', (socket) => {
             color: data.color || '#ffffff'
         }
 
-        // Notificar a los demás jugadores
         socket.broadcast.emit('spawn-player', {
             id: socket.id,
             position: players[socket.id].position,
@@ -67,10 +69,8 @@ io.on('connection', (socket) => {
             color: players[socket.id].color
         })
 
-        // Enviar al nuevo jugador la lista de jugadores ya conectados
         socket.emit('players-update', players)
 
-        // Enviar al nuevo jugador los que ya estaban conectados
         const others = Object.entries(players)
             .filter(([id]) => id !== socket.id)
             .map(([id, info]) => ({
@@ -98,22 +98,17 @@ io.on('connection', (socket) => {
 
     socket.on('disconnect', () => {
         console.log(`🔴 Usuario desconectado: ${socket.id}`)
-      
+
         delete players[socket.id]
-      
-        //  Notificar a todos para eliminar al jugador desconectado
+
         io.emit('remove-player', socket.id)
-      
-        //  Opcional: actualizar la lista completa
         io.emit('players-update', players)
-      })
-      
+    })
+
 })
 
 
-// Escucha en el puerto como siempre
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
     console.log(`✅ Servidor corriendo en puerto ${PORT}`);
 });
-
