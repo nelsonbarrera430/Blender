@@ -101,10 +101,10 @@ io.on('connection', (socket) => {
       
         delete players[socket.id]
       
-        // 🧼 Notificar a todos para eliminar al jugador desconectado
+        //  Notificar a todos para eliminar al jugador desconectado
         io.emit('remove-player', socket.id)
       
-        // 🟡 Opcional: actualizar la lista completa
+        //  Opcional: actualizar la lista completa
         io.emit('players-update', players)
       })
       
