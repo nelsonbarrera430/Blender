@@ -18,6 +18,7 @@ import cannonDebugger from 'cannon-es-debugger'
 import CircularMenu from '../controls/CircularMenu.js'
 import { Howler } from 'howler'
 import SocketManager from '../network/SocketManager.js'
+import LoginScreen from '../controls/LoginScreen.js'
 
 let instance = null
 
@@ -48,8 +49,9 @@ export default class Experience {
     this.resources = new Resources(sources)
 
     this.resources.on('ready', () => {
-      // Mostrar modal solo cuando los recursos estén listos
-      this.modal.show({
+    if (!this.world) return   // ← agrega solo esta línea
+    
+    this.modal.show({
         icon: '🚀',
         message: 'Recoge todas las monedas\n¡y evita los obstáculos!',
         buttons: [
@@ -131,7 +133,14 @@ export default class Experience {
 
 
     // Mundo
+    new LoginScreen(() => {
     this.world = new World(this)
+    
+    // Si recursos ya cargaron, disparar manualmente
+    if (this.resources.loaded >= this.resources.toLoad) {
+        this.world.resources.trigger('ready')
+    }
+})
 
     // Flag tercera persona
     this.isThirdPerson = false
@@ -218,6 +227,7 @@ export default class Experience {
   }
 
   update(delta) {
+    if (!this.world) return
     if (!this.isThirdPerson && !this.renderer.instance.xr.isPresenting) {
       this.camera.update()
     }
@@ -244,39 +254,10 @@ export default class Experience {
     }
   }
 
-  //Generar olas de cubos
+  // Oleadas de cubos deshabilitadas
   _startObstacleWaves() {
-    this.obstacleWaveCount = 10
-    this.maxObstacles = 50
+    this.obstacleWavesDisabled = true
     this.currentObstacles = []
-    const delay = 30000
-
-    const spawnWave = () => {
-      if (this.obstacleWavesDisabled) return
-
-      for (let i = 0; i < this.obstacleWaveCount; i++) {
-        const obstacle = this.raycaster.generateRandomObstacle?.()
-        if (obstacle) {
-          this.currentObstacles.push(obstacle)
-        }
-      }
-
-      // Mantener máximo 50 obstáculos
-      while (this.currentObstacles.length > this.maxObstacles) {
-        const oldest = this.currentObstacles.shift()
-        if (oldest) {
-          // Usar el removedor centralizado para desregistrar tick y liberar recursos
-          this.raycaster._removeObstacle(oldest)
-        }
-      }
-
-      // Mantener constante el tamaño de la oleada para evitar crecimiento exponencial
-      // this.obstacleWaveCount += 10
-      this.obstacleWaveTimeout = setTimeout(spawnWave, delay)
-    }
-
-    // Inicia primera oleada tras 30s
-    this.obstacleWaveTimeout = setTimeout(spawnWave, 30000)
   }
 
 
