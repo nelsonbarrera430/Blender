@@ -8076,5 +8076,5 @@ export default [
         name: 'n5_n5_tree_lev5.011',
         type: 'gltfModel',
         path: '/models/toycarN5/n5_n5_tree_lev5.011.glb'
-    },
+    }
 ]
