@@ -1,7 +1,7 @@
 import gsap from 'gsap'
 
 export default class CircularMenu {
-  constructor({ container, vrIntegration, onAudioToggle, onWalkMode, onFullscreen, onCancelGame }) {
+  constructor({ container, vrIntegration, onAudioToggle,onFullscreen, onCancelGame }) {
     this.container = container
     this.vrIntegration = vrIntegration
     this.isOpen = false
@@ -47,9 +47,7 @@ export default class CircularMenu {
     // Lista de botones de acción
     const actions = [
       { icon: '🔊', title: 'Audio', onClick: onAudioToggle },
-      { icon: '🚶', title: 'Modo Caminata', onClick: onWalkMode },
       { icon: '🖥️', title: 'Pantalla Completa', onClick: onFullscreen },
-      { icon: '🥽', title: 'Modo VR', onClick: () => this.vrIntegration.toggleVR() },
       { icon: '👨‍💻', title: 'Acerca de', onClick: () => this.showAboutModal() },
       { icon: '❌', title: 'Cancelar Juego', onClick: onCancelGame }
     ]
@@ -134,27 +132,7 @@ export default class CircularMenu {
     })
     document.body.appendChild(this.status)
 
-    // HUD: Jugadores
-
-    this.playersLabel = document.createElement('div')
-    this.playersLabel.id = 'hud-players'
-    this.playersLabel.innerText = '👥 Jugadores: 1'
-    Object.assign(this.playersLabel.style, {
-      position: 'fixed',
-      top: '16px',
-      left: '140px',
-      fontSize: '16px',
-      fontWeight: 'bold',
-      background: 'rgba(0,0,0,0.6)',
-      color: 'white',
-      padding: '6px 12px',
-      borderRadius: '8px',
-      zIndex: 9999,
-      fontFamily: 'monospace',
-      pointerEvents: 'none'
-    })
-    document.body.appendChild(this.playersLabel)
-
+    
   }
 
   //Mostrar modal acerca de
@@ -250,6 +228,24 @@ export default class CircularMenu {
     }
   }
 
+  setLevel(level) {
+    if (!this._levelIndicator) {
+        this._levelIndicator = document.createElement('div')
+        this._levelIndicator.style.cssText = `
+            position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.6); color: #00fff7;
+            font-size: 18px; font-weight: bold; padding: 6px 18px;
+            border-radius: 20px; border: 1px solid #00fff7;
+            z-index: 9999; font-family: monospace;
+            aria-live: polite;
+        `
+        this._levelIndicator.setAttribute('role', 'status')
+        this._levelIndicator.setAttribute('aria-live', 'polite')
+        document.body.appendChild(this._levelIndicator)
+    }
+    this._levelIndicator.textContent = `🗺️ Nivel ${level} / 5`
+}
+
 
   destroy() {
     this.toggleButton?.remove()
@@ -257,4 +253,30 @@ export default class CircularMenu {
     this.timer?.remove()
     this.status?.remove()
   }
+  setHealth(current, max = 3) {
+    if (!this._healthBar) {
+        const container = document.createElement('div')
+        container.style.cssText = `
+            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+            display: flex; gap: 6px; z-index: 9999; align-items: center;
+        `
+        this._healthContainer = container
+        document.body.appendChild(container)
+    }
+    
+    this._healthContainer.innerHTML = ''
+    for (let i = 0; i < max; i++) {
+        const heart = document.createElement('div')
+        heart.style.cssText = `
+            width: 28px; height: 28px;
+            font-size: 22px; line-height: 28px;
+            text-align: center;
+            filter: ${i < current ? 'none' : 'grayscale(1) opacity(0.3)'};
+            transition: all 0.3s;
+        `
+        heart.textContent = '❤️'
+        this._healthContainer.appendChild(heart)
+    }
+}
+  
 }
