@@ -28,11 +28,11 @@ export default class Physics {
             this.robotMaterial,
             this.obstacleMaterial,
             {
-                friction: 0.6,
-                restitution: 0.0,
-                contactEquationStiffness: 1e9,
+                friction: 0.0,          
+                restitution: 0.0,       
+                contactEquationStiffness: 1e8,
                 contactEquationRelaxation: 3,
-                frictionEquationStiffness: 1e7,
+                frictionEquationStiffness: 1e6,
                 frictionEquationRelaxation: 3
             }
         )
@@ -42,19 +42,19 @@ export default class Physics {
             this.robotMaterial,
             this.wallMaterial,
             {
-                friction: 0.6,
-                restitution: 0.0,
-                contactEquationStiffness: 1e9,
-                contactEquationRelaxation: 2,
-                frictionEquationStiffness: 1e7,
-                frictionEquationRelaxation: 2
+                friction: 0.0,          // 🔧 FIX: sin fricción — no arrastra contra paredes
+                restitution: 0.0,       // sin rebote
+                contactEquationStiffness: 1e8,
+                contactEquationRelaxation: 3,
+                frictionEquationStiffness: 1e6,
+                frictionEquationRelaxation: 3
             }
         )
         this.world.addContactMaterial(robotWallContact)
     }
 
     update(delta) {
-        // 💣 Limpia cualquier shape corrupto o desconectado
+        
         this.world.bodies = this.world.bodies.filter(body => {
             if (!body || !Array.isArray(body.shapes) || body.shapes.length === 0) return false
 
@@ -65,15 +65,15 @@ export default class Physics {
             return true
         })
 
-        // ✅ Intenta avanzar la simulación sin romper
+        
         try {
             this.world.step(1 / 60, delta, 3)
         } catch (err) {
-            // Silenciar solo el error exacto de wakeUpAfterNarrowphase
+            
             if (err?.message?.includes('wakeUpAfterNarrowphase')) {
-                console.warn('⚠️ Cannon encontró un shape corrupto residual. Ignorado.')
+                console.warn(' Cannon encontró un shape corrupto residual. Ignorado.')
             } else {
-                console.error('🚫 Cannon step error:', err)
+                console.error(' Cannon step error:', err)
             }
         }
     }
