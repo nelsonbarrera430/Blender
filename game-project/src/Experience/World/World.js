@@ -11,14 +11,14 @@ import MobileControls from '../../controls/MobileControls.js'
 import LevelManager from './LevelManager.js';
 import BlockPrefab from './BlockPrefab.js'
 import FinalPrizeParticles from '../Utils/FinalPrizeParticles.js'
-import Enemy from './Enemy.js'
+import Enemy from './EnemyModel.js'
 
 
 export default class World {
     constructor(experience) {
         this.experience = experience
         this.scene = this.experience.scene
-        this.blockPrefab = new BlockPrefab(this.experience)
+        //this.blockPrefab = new BlockPrefab(this.experience)
         this.resources = this.experience.resources
         this.levelManager = new LevelManager(this.experience);
         this.finalPrizeActivated = false
@@ -30,7 +30,6 @@ export default class World {
         this.winner = new Sound('/sounds/winner.mp3')
         this.portalSound = new Sound('/sounds/portal.mp3')
         this.loseSound = new Sound('/sounds/lose.ogg')
-
 
         this.allowPrizePickup = false
         this.hasMoved = false
@@ -44,19 +43,26 @@ export default class World {
             this.environment = new Environment(this.experience)
 
             this.loader = new ToyCarLoader(this.experience)
-            await this.loader.loadFromAPI()
+            await this.loader.loadLevelBlocks(1)
 
             this.fox = new Fox(this.experience)
             this.robot = new Robot(this.experience)
 
-            // Enemigos múltiples: plantilla y spawn lejos del jugador
-            this.enemyTemplate = new THREE.Mesh(
-                new THREE.BoxGeometry(1, 1, 1),
-                new THREE.MeshStandardMaterial({ color: 0xff0000 })
-            )
-            const enemiesCountEnv = parseInt(import.meta.env.VITE_ENEMIES_COUNT || '3', 10)
-            const enemiesCount = Number.isFinite(enemiesCountEnv) && enemiesCountEnv > 0 ? enemiesCountEnv : 3
-            this.spawnEnemies(enemiesCount)
+            // Buscar spawn en los bloques del nivel 1
+            const spawnBlock = this.loader.lastBlocks?.find(b => b.role === 'spawn')
+            if (spawnBlock) {
+                setTimeout(() => {
+                    this.resetRobotPosition({ x: spawnBlock.x, y: spawnBlock.y + 1.5, z: spawnBlock.z })
+                }, 500)
+            }
+
+            this.experience.menu.setLevel?.(1)
+
+            const zombieGLB = this.resources.items.zombieModel
+            this.enemyTemplate = zombieGLB.scene
+            this.enemyTemplate.scale.set(0.5, 0.5, 0.5)
+
+            this.spawnEnemies(this.levelManager.getEnemiesForLevel(1))
 
             this.experience.vr.bindCharacter(this.robot)
             this.thirdPersonCamera = new ThirdPersonCamera(this.experience, this.robot.group)
@@ -69,29 +75,33 @@ export default class World {
             })
 
             if (!this.experience.physics || !this.experience.physics.world) {
-                console.error("🚫 Sistema de físicas no está inicializado al cargar el mundo.");
+                console.error("Sistema de físicas no está inicializado al cargar el mundo.");
                 return;
             }
 
-            // Si se está en modo VR, ocultar el robot
+            // Cargar progreso guardado
+            const progress = await this.loadProgress()
+            if (progress && progress.currentLevel > 1) {
+                this.levelManager.currentLevel = progress.currentLevel
+                this.clearCurrentScene()
+                await this.loadLevel(progress.currentLevel)
+                console.log(`Progreso cargado: nivel ${progress.currentLevel}`)
+            }
+
             this._checkVRMode()
 
             this.experience.renderer.instance.xr.addEventListener('sessionstart', () => {
                 this._checkVRMode()
             })
-
-
         })
     }
 
-    // Crear varios enemigos en posiciones alejadas del jugador para evitar atascos iniciales
-    spawnEnemies(count = 3) {
+    spawnEnemies(count = 1) {
         if (!this.robot?.body?.position) return
         const playerPos = this.robot.body.position
         const minRadius = 25
         const maxRadius = 40
 
-        // Limpia anteriores si existen
         if (this.enemies?.length) {
             this.enemies.forEach(e => e?.destroy?.())
             this.enemies = []
@@ -105,15 +115,11 @@ export default class World {
             const y = 1.5
 
             const enemy = new Enemy({
-                scene: this.scene,
-                physicsWorld: this.experience.physics.world,
+                experience: this.experience,
                 playerRef: this.robot,
-                model: this.enemyTemplate,
-                position: new THREE.Vector3(x, y, z),
-                experience: this.experience
+                position: new THREE.Vector3(x, y, z)
             })
 
-            // Pequeño delay para que no ataquen todos a la vez
             enemy.delayActivation = 1.0 + i * 0.5
             this.enemies.push(enemy)
         }
@@ -123,16 +129,53 @@ export default class World {
         this.ambientSound.toggle()
     }
 
+    async saveProgress() {
+        const token = localStorage.getItem('gameToken')
+        if (!token) return
+        try {
+            const payload = JSON.parse(atob(token.split('.')[1]))
+            const username = payload.username
+            const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001'
+            await fetch(`${backendUrl}/api/progress/save`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    username,
+                    currentLevel: this.levelManager.currentLevel,
+                    coinsCollected: this.points || 0,
+                    totalCoins: this.totalDefaultCoins || 0
+                })
+            })
+            console.log('Progreso guardado')
+        } catch (err) {
+            console.warn('No se pudo guardar el progreso:', err)
+        }
+    }
+
+    async loadProgress() {
+        const token = localStorage.getItem('gameToken')
+        if (!token) return null
+        try {
+            const payload = JSON.parse(atob(token.split('.')[1]))
+            const username = payload.username
+            const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001'
+            const res = await fetch(`${backendUrl}/api/progress/load/${username}`)
+            const data = await res.json()
+            return data
+        } catch (err) {
+            console.warn('No se pudo cargar el progreso:', err)
+            return null
+        }
+    }
+
     update(delta) {
         this.fox?.update()
         this.robot?.update()
-        this.blockPrefab?.update()
+        //this.blockPrefab?.update()
 
-        // 🧟‍♂️ Solo actualizar enemigos si el juego ya comenzó
         if (this.gameStarted) {
             this.enemies?.forEach(e => e.update(delta))
 
-            // 💀 Verificar si algún enemigo atrapó al jugador
             const distToClosest = this.enemies?.reduce((min, e) => {
                 if (!e?.body?.position || !this.robot?.body?.position) return min
                 const d = e.body.position.distanceTo(this.robot.body.position)
@@ -140,7 +183,7 @@ export default class World {
             }, Infinity) ?? Infinity
 
             if (distToClosest < 1.0 && !this.defeatTriggered) {
-                this.defeatTriggered = true  // Previene múltiples disparos
+                this.defeatTriggered = true
 
                 if (window.userInteracted && this.loseSound) {
                     this.loseSound.play()
@@ -182,7 +225,6 @@ export default class World {
 
         if (!this.allowPrizePickup || !this.loader || !this.robot || !this.robot.body) return
 
-
         let pos = null
 
         if (this.experience.renderer.instance.xr.isPresenting) {
@@ -190,9 +232,8 @@ export default class World {
         } else if (this.robot?.body?.position) {
             pos = this.robot.body.position
         } else {
-            return // No hay posición válida, salimos del update
+            return
         }
-
 
         const speed = this.robot?.body?.velocity?.length?.() || 0
         const moved = speed > 0.5
@@ -212,6 +253,8 @@ export default class World {
                     const pointsTarget = this.levelManager.getCurrentLevelTargetPoints()
                     console.log(`🎯 Monedas recolectadas: ${this.points} / ${pointsTarget}`)
 
+                    this.saveProgress()
+
                     if (!this.finalPrizeActivated && this.points === pointsTarget) {
                         const finalCoin = this.loader.prizes.find(p => p.role === "finalPrize")
                         if (finalCoin && !finalCoin.collected && finalCoin.pivot) {
@@ -219,50 +262,13 @@ export default class World {
                             if (finalCoin.model) finalCoin.model.visible = true
                             this.finalPrizeActivated = true
 
-                            new FinalPrizeParticles({
-                                scene: this.scene,
-                                targetPosition: finalCoin.pivot.position,
-                                sourcePosition: this.robot.body.position,
-                                experience: this.experience
-                            })
+                            this._finalParticles = new FinalPrizeParticles({
+                             scene: this.scene,
+                             targetPosition: finalCoin.pivot.position,
+                             sourcePosition: this.robot.body.position,
+                             experience: this.experience
+                             })
 
-                            // Faro visual
-                            this.discoRaysGroup = new THREE.Group()
-                            this.scene.add(this.discoRaysGroup)
-
-                            const rayMaterial = new THREE.MeshBasicMaterial({
-                                color: 0xaa00ff,
-                                transparent: true,
-                                opacity: 0.25,
-                                side: THREE.DoubleSide
-                            })
-
-                            const rayCount = 4
-                            for (let i = 0; i < rayCount; i++) {
-                                const cone = new THREE.ConeGeometry(0.2, 4, 6, 1, true)
-                                const ray = new THREE.Mesh(cone, rayMaterial)
-
-                                ray.position.set(0, 2, 0)
-                                ray.rotation.x = Math.PI / 2
-                                ray.rotation.z = (i * Math.PI * 2) / rayCount
-
-                                const spot = new THREE.SpotLight(0xaa00ff, 2, 12, Math.PI / 7, 0.2, 0.5)
-                                spot.castShadow = false
-                                spot.shadow.mapSize.set(1, 1)
-                                spot.position.copy(ray.position)
-                                spot.target.position.set(
-                                    Math.cos(ray.rotation.z) * 10,
-                                    2,
-                                    Math.sin(ray.rotation.z) * 10
-                                )
-
-                                ray.userData.spot = spot
-                                this.discoRaysGroup.add(ray)
-                                this.discoRaysGroup.add(spot)
-                                this.discoRaysGroup.add(spot.target)
-                            }
-
-                            this.discoRaysGroup.position.copy(finalCoin.pivot.position)
 
                             if (window.userInteracted) {
                                 this.portalSound.play()
@@ -274,10 +280,12 @@ export default class World {
                 }
 
                 if (prize.role === "finalPrize") {
-                    if (this.levelManager.currentLevel < this.levelManager.totalLevels) {
+    if (!this.finalPrizeActivated) return  
+    if (this.levelManager.currentLevel < this.levelManager.totalLevels) {
                         this.levelManager.nextLevel()
                         this.points = 0
                         this.robot.points = 0
+                        this.finalPrizeActivated = false
                     } else {
                         const elapsed = this.experience.tracker.stop()
                         this.experience.tracker.saveTime(elapsed)
@@ -306,80 +314,13 @@ export default class World {
             }
         })
 
-        // ✅ Verificar si todas las monedas se han recogido y aún no se activó el finalPrize
-        // ✅ Activar finalPrize si todas las monedas default fueron recolectadas (desde VR o PC)
-        if (!this.finalPrizeActivated && this.loader?.prizes) {
-            const totalDefault = this.loader.prizes.filter(p => p.role === 'default').length
-            const collectedDefault = this.loader.prizes.filter(p => p.role === 'default' && p.collected).length
+        
 
-            if (totalDefault > 0 && collectedDefault === totalDefault) {
-                const finalCoin = this.loader.prizes.find(p => p.role === "finalPrize")
-                if (finalCoin && !finalCoin.collected && finalCoin.pivot) {
-                    finalCoin.pivot.visible = true
-                    if (finalCoin.model) finalCoin.model.visible = true
-                    this.finalPrizeActivated = true
-
-                    new FinalPrizeParticles({
-                        scene: this.scene,
-                        targetPosition: finalCoin.pivot.position,
-                        sourcePosition: this.experience.vrDolly?.position ?? this.experience.camera.instance.position,
-                        experience: this.experience
-                    })
-
-                    // Faro visual
-                    this.discoRaysGroup = new THREE.Group()
-                    this.scene.add(this.discoRaysGroup)
-
-                    const rayMaterial = new THREE.MeshBasicMaterial({
-                        color: 0xaa00ff,
-                        transparent: true,
-                        opacity: 0.25,
-                        side: THREE.DoubleSide
-                    })
-
-                    const rayCount = 4
-                    for (let i = 0; i < rayCount; i++) {
-                        const cone = new THREE.ConeGeometry(0.2, 4, 6, 1, true)
-                        const ray = new THREE.Mesh(cone, rayMaterial)
-
-                        ray.position.set(0, 2, 0)
-                        ray.rotation.x = Math.PI / 2
-                        ray.rotation.z = (i * Math.PI * 2) / rayCount
-
-                        const spot = new THREE.SpotLight(0xaa00ff, 2, 12, Math.PI / 7, 0.2, 0.5)
-                        spot.castShadow = false
-                        spot.shadow.mapSize.set(1, 1)
-                        spot.position.copy(ray.position)
-                        spot.target.position.set(
-                            Math.cos(ray.rotation.z) * 10,
-                            2,
-                            Math.sin(ray.rotation.z) * 10
-                        )
-
-                        ray.userData.spot = spot
-                        this.discoRaysGroup.add(ray)
-                        this.discoRaysGroup.add(spot)
-                        this.discoRaysGroup.add(spot.target)
-                    }
-
-                    this.discoRaysGroup.position.copy(finalCoin.pivot.position)
-
-                    if (window.userInteracted) {
-                        this.portalSound.play()
-                    }
-
-                    console.log("🪙 FinalPrize activado automáticamente desde VR.")
-                }
-            }
+        // Girar portal como aspas de ventilador
+        if (this.finalPrizeModel) {
+            this.finalPrizeModel.rotation.y += delta * 10
         }
 
-
-        // Faro rotación
-        if (this.discoRaysGroup) {
-            this.discoRaysGroup.rotation.y += delta * 0.5
-        }
-
-        // Optimización física por distancia
         const playerPos = this.experience.renderer.instance.xr.isPresenting
             ? this.experience.camera.instance.position
             : this.robot?.body?.position
@@ -399,7 +340,6 @@ export default class World {
         })
     }
 
-
     async loadLevel(level) {
         try {
             const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001';
@@ -409,14 +349,16 @@ export default class World {
             try {
                 const res = await fetch(apiUrl);
                 if (!res.ok) throw new Error('Error desde API');
-                // Asegurar que la respuesta sea JSON
                 const ct = res.headers.get('content-type') || '';
                 if (!ct.includes('application/json')) {
                     const preview = (await res.text()).slice(0, 120);
                     throw new Error(`Respuesta no-JSON desde API (${apiUrl}): ${preview}`);
                 }
-                data = await res.json();
+                data = { blocks: await res.json() };
                 console.log(`📦 Datos del nivel ${level} cargados desde API`);
+                console.log('🔍 bloques nivel', level, ':', data.blocks?.length)
+console.log('🔍 spawn encontrado:', data.blocks?.find(b => b.role === 'spawn'))
+
             } catch (error) {
                 console.warn(`⚠️ No se pudo conectar con el backend. Usando datos locales para nivel ${level}...`);
                 const publicPath = (p) => {
@@ -424,7 +366,7 @@ export default class World {
                     return `${base.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
                 };
 
-                const localUrl = publicPath('data/toy_car_blocks.json');
+                const localUrl = publicPath(`data/toy_car_blocks${level}.json`);
                 const localRes = await fetch(localUrl);
                 if (!localRes.ok) {
                     const preview = (await localRes.text()).slice(0, 120);
@@ -437,15 +379,22 @@ export default class World {
                 }
                 const allBlocks = await localRes.json();
 
-                const filteredBlocks = allBlocks.filter(b => b.level === level);
-
                 data = {
-                    blocks: filteredBlocks,
-                    spawnPoint: { x: -17, y: 1.5, z: -67 } // valor por defecto si no viene en JSON
+                    blocks: allBlocks,
+                    spawnPoint: { x: -17, y: 1.5, z: -67 }
                 };
             }
 
-            const spawnPoint = data.spawnPoint || { x: 5, y: 1.5, z: 5 };
+            this.experience.menu.setLevel?.(level);
+
+            const spawnBlock = data.blocks?.find(b => b.role === 'spawn')
+            const spawnPoint = spawnBlock
+                ? { x: spawnBlock.x, y: spawnBlock.y + 1.5, z: spawnBlock.z }
+                : (data.spawnPoint || { x: 5, y: 1.5, z: 5 })
+
+            console.log('🔍 spawnBlock:', spawnBlock)
+            console.log('🔍 spawnPoint:', spawnPoint)
+
             this.points = 0;
             this.robot.points = 0;
             this.finalPrizeActivated = false;
@@ -473,7 +422,6 @@ export default class World {
                 await this.loader.loadFromURL(apiUrl);
             }
 
-
             this.loader.prizes.forEach(p => {
                 if (p.model) p.model.visible = (p.role !== 'finalPrize');
                 p.collected = false;
@@ -483,7 +431,9 @@ export default class World {
             console.log(`🎯 Total de monedas default para el nivel ${level}: ${this.totalDefaultCoins}`);
 
             this.resetRobotPosition(spawnPoint);
+            this.spawnEnemies(this.levelManager.getEnemiesForLevel(level));
             console.log(`✅ Nivel ${level} cargado con spawn en`, spawnPoint);
+            this.saveProgress()
         } catch (error) {
             console.error('❌ Error cargando nivel:', error);
         }
@@ -586,19 +536,15 @@ export default class World {
             }
         })
 
-
-        /** Esto es de faro para limpienza */
-        if (this.discoRaysGroup) {
-            this.discoRaysGroup.children.forEach(obj => {
-                if (obj.geometry) obj.geometry.dispose();
-                if (obj.material) obj.material.dispose();
-            });
-            this.scene.remove(this.discoRaysGroup);
-            this.discoRaysGroup = null;
-        }
-
-        /** Fin faro para limpianza */
-
+        if (this._finalParticles) {
+    try {
+        this._finalParticles.dispose()
+    } catch(e) {
+        console.warn('dispose particles error:', e)
+    }
+    this._finalParticles = null
+}
+this.finalPrizeModel = null
     }
 
     resetRobotPosition(spawn = { x: -17, y: 1.5, z: -67 }) {
@@ -616,12 +562,19 @@ export default class World {
     async _processLocalBlocks(blocks) {
         const preciseRes = await fetch('/config/precisePhysicsModels.json');
         const preciseModels = await preciseRes.json();
+        this.loader.prizes = []
         this.loader._processBlocks(blocks, preciseModels);
 
         this.loader.prizes.forEach(p => {
-            if (p.model) p.model.visible = (p.role !== 'finalPrize');
-            p.collected = false;
-        });
+    if (p.role === 'finalPrize') {
+        if (p.pivot) p.pivot.visible = false;
+        if (p.model) p.model.visible = false;
+    } else {
+        if (p.pivot) p.pivot.visible = true;
+        if (p.model) p.model.visible = true;
+    }
+    p.collected = false;
+});
 
         this.totalDefaultCoins = this.loader.prizes.filter(p => p.role === "default").length;
         console.log(`🎯 Total de monedas default para el nivel local: ${this.totalDefaultCoins}`);
@@ -635,12 +588,10 @@ export default class World {
                 this.robot.group.visible = false
             }
 
-            // 🔁 Delay de 3s para que no ataque de inmediato en VR
             if (this.enemy) {
                 this.enemy.delayActivation = 10.0
             }
 
-            // 🧠 Posicionar cámara correctamente
             this.experience.camera.instance.position.set(5, 1.6, 5)
             this.experience.camera.instance.lookAt(new THREE.Vector3(5, 1.6, 4))
         } else {
@@ -649,6 +600,4 @@ export default class World {
             }
         }
     }
-
-
 }
