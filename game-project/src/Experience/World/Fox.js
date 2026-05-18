@@ -75,6 +75,51 @@ export default class Fox {
     }
 
     update() {
-        this.animation.mixer.update(this.time.delta * 0.001)
+    this.animation.mixer.update(this.time.delta * 0.001)
+
+    const robot = this.experience.world?.robot
+    if (!robot?.group) return
+
+    const foxPos = this.model.position
+    const playerPos = robot.group.position
+
+    const dx = playerPos.x - foxPos.x
+    const dz = playerPos.z - foxPos.z
+    const distance = Math.sqrt(dx * dx + dz * dz)
+
+    // Seguir al jugador si está lejos
+    const followDistance = 5
+    const stopDistance = 2
+
+    if (distance > followDistance) {
+        // Correr
+        const speed = 0.05
+        foxPos.x += (dx / distance) * speed * this.time.delta * 0.1
+        foxPos.z += (dz / distance) * speed * this.time.delta * 0.1
+
+        if (this.animation.actions.current !== this.animation.actions.running) {
+            this.animation.play('running')
+        }
+    } else if (distance > stopDistance) {
+        // Caminar
+        const speed = 0.02
+        foxPos.x += (dx / distance) * speed * this.time.delta * 0.1
+        foxPos.z += (dz / distance) * speed * this.time.delta * 0.1
+
+        if (this.animation.actions.current !== this.animation.actions.walking) {
+            this.animation.play('walking')
+        }
+    } else {
+        // Idle
+        if (this.animation.actions.current !== this.animation.actions.idle) {
+            this.animation.play('idle')
+        }
     }
+
+    // Rotar hacia el jugador
+    if (distance > stopDistance) {
+        const angle = Math.atan2(dx, dz)
+        this.model.rotation.y = angle
+    }
+}
 }
