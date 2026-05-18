@@ -17,7 +17,7 @@ export default class MobileControls {
     this.isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
     if (this.isTouchDevice) {
       this.createJoystick()
-      this.createJumpButton()
+      
     }
   }
 
@@ -36,19 +36,7 @@ export default class MobileControls {
       userSelect: 'none'
     })
 
-    this.stick = document.createElement('div')
-    Object.assign(this.stick.style, {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-      width: '50px',
-      height: '50px',
-      borderRadius: '50%',
-      background: 'rgba(255,255,255,0.8)',
-      transform: 'translate(-50%, -50%)',
-      transition: '0.1s',
-      pointerEvents: 'none'
-    })
+    
 
     this.container.appendChild(this.stick)
     document.body.appendChild(this.container)
@@ -161,6 +149,6 @@ export default class MobileControls {
 
   destroy() {
     this.container?.remove()
-    this.jumpButton?.remove()
+    
   }
 }
