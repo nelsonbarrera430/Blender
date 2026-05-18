@@ -77,13 +77,15 @@ export default class ToyCarLoader {
                     if (Array.isArray(child.material)) {
                         child.material.forEach((mat) => {
                             mat.map = texture;
+                            mat.transparent = true;
                             mat.needsUpdate = true;
                         });
                     } else if (child.material) {
                         child.material.map = texture;
+                        child.material.transparent = true;
                         child.material.needsUpdate = true;
                     } else {
-                        child.material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide });
+                        child.material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide, transparent: true });
                     }
                     applied++;
                 });
@@ -100,6 +102,30 @@ export default class ToyCarLoader {
             }
         );
     }
+    async loadLevelBlocks(level) {
+    try {
+        const listRes = await fetch('/config/precisePhysicsModels.json')
+        const precisePhysicsModels = await listRes.json()
+
+        let blocks = []
+        try {
+            const apiUrl = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001') + `/api/blocks?level=${level}`
+            const res = await fetch(apiUrl)
+            if (!res.ok) throw new Error('Conexión fallida')
+            blocks = await res.json()
+            console.log(`Datos cargados desde API nivel ${level}:`, blocks.length)
+        } catch {
+            console.warn('Cargando desde archivo local...')
+            const localRes = await fetch(`/data/toy_car_blocks${level}.json`)
+            blocks = await localRes.json()
+        }
+
+        this.lastBlocks = blocks
+        this._processBlocks(blocks, precisePhysicsModels)
+    } catch (err) {
+        console.error('Error al cargar bloques:', err)
+    }
+}
 
     async loadFromAPI() {
         try {
@@ -109,7 +135,7 @@ export default class ToyCarLoader {
             let blocks = [];
 
             try {
-                const apiUrl = import.meta.env.VITE_API_URL + '/api/blocks';
+                const apiUrl = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001') + '/api/blocks';
                 const res = await fetch(apiUrl);
 
                 if (!res.ok) throw new Error('Conexión fallida');
@@ -119,7 +145,7 @@ export default class ToyCarLoader {
                 //console.log('🧩 Lista de bloques:', blocks.map(b => b.name))
             } catch (apiError) {
                 console.warn('No se pudo conectar con la API. Cargando desde archivo local...');
-                const localRes = await fetch('/data/toy_car_blocks.json');
+                const localRes = await fetch('/data/toy_car_blocks1.json');
                 const allBlocks = await localRes.json();
 
                 // 🔍 Filtrar solo nivel 1
@@ -152,11 +178,13 @@ export default class ToyCarLoader {
     }
 
     _processBlocks(blocks, precisePhysicsModels) {
+        this.lastBlocks = blocks
         blocks.forEach(block => {
             if (!block.name) {
                 console.warn('Bloque sin nombre:', block);
                 return;
             }
+            if (block.role === 'spawn') return
 
             const resourceKey = block.name;
             const glb = this.resources.items[resourceKey];
@@ -178,7 +206,102 @@ export default class ToyCarLoader {
                 }
             });
 
-            //  Manejo de carteles: aplicar textura a meshes
+            // --- MANEJO DE CARTELES  ---
+
+
+if (block.name === 'n1_cartel_pro_16_9_lev1') { 
+    this._applyTextureToMeshes(model, '/textures/zona_urbana_blender.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+}
+
+
+if (block.name === 'n1_cartel_pro_dos_lev1') { 
+    
+    this._applyTextureToMeshes(model, '/textures/busca_monedas.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+
+}
+if (block.name === 'n2_cartel_pro_dos_s_lev2') { 
+    
+    this._applyTextureToMeshes(model, '/textures/nivel2.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+
+}
+if (block.name === 'n2_cartel_pros_lev2') { 
+    
+    this._applyTextureToMeshes(model, '/textures/Buenasuerte.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+
+}
+if (block.name === 'cartell3_lev3') { 
+    
+    this._applyTextureToMeshes(model, '/textures/eljardin.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+
+}
+
+if (block.name === 'carteleando_lev5') { 
+   
+    this._applyTextureToMeshes(model, '/textures/final.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+
+}
+if (block.name === 'carteleando_lev5.001') { 
+    
+    this._applyTextureToMeshes(model, '/textures/nivel5.png', (child) => child.isMesh, {
+        repeat: { x: 1, y: 1 }, 
+        offset: { x: 0, y: 0 },
+        center: { x: 0.5, y: 0.5 },
+        
+        rotation: Math.PI, 
+        wrapS: THREE.ClampToEdgeWrapping,
+        wrapT: THREE.ClampToEdgeWrapping
+    });
+
+}
+
             this._applyTextureToMeshes(
                 model,
                 '/textures/ima1.jpg',
@@ -211,13 +334,13 @@ export default class ToyCarLoader {
             }
 
             //  Si es un premio (coin)
-            if (block.name.startsWith('coin')) {
+            if (block.name.startsWith('coin') || block.role === 'coin' || block.role === 'finalPrize') { 
                 // console.log('🧪 Revisando coin desde API:', block)
                 const prize = new Prize({
                     model,
                     position: new THREE.Vector3(block.x, block.y, block.z),
                     scene: this.scene,
-                    role: block.role || "default"
+                    role: block.role === 'coin' ? 'default' : (block.role || "default")
                 });
 
                 // 🔵 MARCAR modelo del premio
@@ -265,6 +388,7 @@ export default class ToyCarLoader {
             body.userData.linkedModel = model;
             this.physics.world.addBody(body);
         });
+        
     }
 
 }
