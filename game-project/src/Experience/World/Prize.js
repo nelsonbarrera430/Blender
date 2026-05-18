@@ -38,9 +38,13 @@ export default class Prize {
     }
 
     update(delta) {
-        if (this.collected) return
-        this.pivot.rotation.y += delta * 1.5 // ahora sí gira sobre su eje
+    if (this.collected) return
+    if (this.role === 'finalPrize') {
+        this.pivot.rotation.z += delta * 50  
+    } else {
+        this.pivot.rotation.y += delta * 1.5  
     }
+}
 
     collect() {
         if (this.collected) return
