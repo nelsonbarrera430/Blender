@@ -51,7 +51,7 @@ const startLevel = parseInt(localStorage.getItem('currentLevel') || '1', 10)
 this.resources = new Resources(sources, { currentLevel: startLevel })
 
     this.resources.on('ready', () => {
-    if (!this.world) return   // ← agrega solo esta línea
+    if (!this.world) return   
     
     this.modal.show({
         icon: '🚀',
@@ -61,6 +61,7 @@ this.resources = new Resources(sources, { currentLevel: startLevel })
             text: '▶️ Iniciar juego',
             onClick: () => this.startGame()
           }
+          
         ]
       })
 
@@ -340,6 +341,12 @@ this.resources = new Resources(sources, { currentLevel: startLevel })
 
   resetGameToFirstLevel() {
     console.log('♻️ Reiniciando al nivel');
+    
+    if (!this.world) {
+        console.warn(' World no existe, reiniciando completo')
+        this.resetGame()
+        return
+    }
 
     // 💀 Destruir enemigo previo si existe
     if (Array.isArray(this.world.enemies)) {
@@ -355,6 +362,22 @@ this.resources = new Resources(sources, { currentLevel: startLevel })
     this.world.robot.points = 0;
     this.world.loader.prizes = [];
     this.world.defeatTriggered = false
+    // Revivir el robot
+if (this.world.robot) {
+    this.world.robot.health = this.world.robot.maxHealth
+    this.world.robot.body = null
+    this.world.robot.setPhysics()
+    this.world.robot.group.rotation.set(0, 0, 0)
+    this.world.robot.group.position.set(0, 1.2, 0)
+    if (this.world.robot.animation?.actions?.death) {
+        this.world.robot.animation.actions.death.stop()
+    }
+    if (this.world.robot.animation?.actions?.idle) {
+        this.world.robot.animation.actions.idle.reset().play()
+        this.world.robot.animation.actions.current = this.world.robot.animation.actions.idle
+    }
+    this.world.robot.walkSound?.stop()
+}
 
     // Resetear nivel actual
     this.world.levelManager.currentLevel = 1;
