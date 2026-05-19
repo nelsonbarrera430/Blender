@@ -417,6 +417,8 @@ console.log('🔍 spawn encontrado:', data.blocks?.find(b => b.role === 'spawn')
                     throw new Error(`Contenido no JSON en ${preciseUrl}. Vista previa: ${preview}`);
                 }
                 const preciseModels = await preciseRes.json();
+                this.loader.prizes = []
+                this.loader._processBlocks(data.blocks, preciseModels);
                 this.loader._processBlocks(data.blocks, preciseModels);
             } else {
                 await this.loader.loadFromURL(apiUrl);
