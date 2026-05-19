@@ -68,11 +68,15 @@ export default class GameTracker {
             message: `¡Felicidades!\nTerminaste la partida.\n⏱ Tu tiempo: ${currentTime}s\n\n🏆 Mejores tiempos:\n${ranking}`,
             buttons: [
                 {
-                    text: '🔁 Reintentar',
-                    onClick: () => {
-                        window.experience.resetGameToFirstLevel();
+                      text: '🔁 Reintentar',
+                         onClick: () => {
+                         if (window.experience?.resetGameToFirstLevel) {
+                            window.experience.resetGameToFirstLevel()
+                               } else {
+                          window.location.reload()
+                           }
                     }
-                },
+                   },
                 {
                     text: '❌ Cancelar',
                     onClick: () => {
