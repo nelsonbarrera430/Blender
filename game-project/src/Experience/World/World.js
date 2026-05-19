@@ -418,7 +418,7 @@ console.log('🔍 spawn encontrado:', data.blocks?.find(b => b.role === 'spawn')
                 }
                 const preciseModels = await preciseRes.json();
                 this.loader.prizes = []
-                this.loader._processBlocks(data.blocks, preciseModels);
+                
                 this.loader._processBlocks(data.blocks, preciseModels);
             } else {
                 await this.loader.loadFromURL(apiUrl);
